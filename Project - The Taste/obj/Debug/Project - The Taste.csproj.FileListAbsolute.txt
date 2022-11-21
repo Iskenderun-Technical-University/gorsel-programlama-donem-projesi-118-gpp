@@ -1,0 +1,12 @@
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\bin\Debug\Project - The Taste.exe.config
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\bin\Debug\Project - The Taste.exe
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\bin\Debug\Project - The Taste.pdb
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\bin\Debug\Guna.UI2.dll
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project - The Taste.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project___The_Taste.Form1.resources
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project___The_Taste.Properties.Resources.resources
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project - The Taste.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project - The Taste.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project - The Taste.csproj.CopyComplete
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project - The Taste.exe
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project - The Taste.pdb
