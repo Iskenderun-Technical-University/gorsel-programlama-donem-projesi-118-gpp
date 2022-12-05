@@ -16,5 +16,15 @@ namespace Project___The_Taste.components
         {
             InitializeComponent();
         }
+
+        private void Ch_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
