@@ -82,6 +82,12 @@ namespace Project___The_Taste
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
+            this.wedget13 = new Project___The_Taste.components.wedget();
+            this.wedget14 = new Project___The_Taste.components.wedget();
+            this.wedget19 = new Project___The_Taste.components.wedget();
+            this.wedget20 = new Project___The_Taste.components.wedget();
+            this.wedget21 = new Project___The_Taste.components.wedget();
+            this.wedget22 = new Project___The_Taste.components.wedget();
             this.sidebar.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
@@ -576,6 +582,12 @@ namespace Project___The_Taste
             this.flowLayoutPanel1.Controls.Add(this.wedget10);
             this.flowLayoutPanel1.Controls.Add(this.wedget11);
             this.flowLayoutPanel1.Controls.Add(this.wedget12);
+            this.flowLayoutPanel1.Controls.Add(this.wedget13);
+            this.flowLayoutPanel1.Controls.Add(this.wedget14);
+            this.flowLayoutPanel1.Controls.Add(this.wedget19);
+            this.flowLayoutPanel1.Controls.Add(this.wedget20);
+            this.flowLayoutPanel1.Controls.Add(this.wedget21);
+            this.flowLayoutPanel1.Controls.Add(this.wedget22);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(208, -28);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -779,6 +791,60 @@ namespace Project___The_Taste
             this.guna2Separator1.UseTransparentBackground = true;
             this.guna2Separator1.Click += new System.EventHandler(this.guna2Separator1_Click);
             // 
+            // wedget13
+            // 
+            this.wedget13.BackColor = System.Drawing.Color.White;
+            this.wedget13.Location = new System.Drawing.Point(3, 882);
+            this.wedget13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget13.Name = "wedget13";
+            this.wedget13.Size = new System.Drawing.Size(339, 106);
+            this.wedget13.TabIndex = 34;
+            // 
+            // wedget14
+            // 
+            this.wedget14.BackColor = System.Drawing.Color.White;
+            this.wedget14.Location = new System.Drawing.Point(348, 882);
+            this.wedget14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget14.Name = "wedget14";
+            this.wedget14.Size = new System.Drawing.Size(339, 106);
+            this.wedget14.TabIndex = 35;
+            // 
+            // wedget19
+            // 
+            this.wedget19.BackColor = System.Drawing.Color.White;
+            this.wedget19.Location = new System.Drawing.Point(3, 992);
+            this.wedget19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget19.Name = "wedget19";
+            this.wedget19.Size = new System.Drawing.Size(339, 106);
+            this.wedget19.TabIndex = 36;
+            // 
+            // wedget20
+            // 
+            this.wedget20.BackColor = System.Drawing.Color.White;
+            this.wedget20.Location = new System.Drawing.Point(348, 992);
+            this.wedget20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget20.Name = "wedget20";
+            this.wedget20.Size = new System.Drawing.Size(339, 106);
+            this.wedget20.TabIndex = 37;
+            // 
+            // wedget21
+            // 
+            this.wedget21.BackColor = System.Drawing.Color.White;
+            this.wedget21.Location = new System.Drawing.Point(3, 1102);
+            this.wedget21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget21.Name = "wedget21";
+            this.wedget21.Size = new System.Drawing.Size(339, 106);
+            this.wedget21.TabIndex = 38;
+            // 
+            // wedget22
+            // 
+            this.wedget22.BackColor = System.Drawing.Color.White;
+            this.wedget22.Location = new System.Drawing.Point(348, 1102);
+            this.wedget22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget22.Name = "wedget22";
+            this.wedget22.Size = new System.Drawing.Size(339, 106);
+            this.wedget22.TabIndex = 39;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -871,6 +937,12 @@ namespace Project___The_Taste
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private components.wedget wedget13;
+        private components.wedget wedget14;
+        private components.wedget wedget19;
+        private components.wedget wedget20;
+        private components.wedget wedget21;
+        private components.wedget wedget22;
     }
 }
 
