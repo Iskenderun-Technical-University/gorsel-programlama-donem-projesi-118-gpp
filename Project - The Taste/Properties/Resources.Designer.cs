@@ -153,9 +153,29 @@ namespace Project___The_Taste.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap the_hat_pu {
+            get {
+                object obj = ResourceManager.GetObject("the hat pu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap THE_NAME {
             get {
                 object obj = ResourceManager.GetObject("THE NAME", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap THE_NAME_pu {
+            get {
+                object obj = ResourceManager.GetObject("THE NAME pu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
