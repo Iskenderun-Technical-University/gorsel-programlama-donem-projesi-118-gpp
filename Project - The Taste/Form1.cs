@@ -151,5 +151,10 @@ namespace Project___The_Taste
         {
 
         }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            flowLayoutPanel1.Visible=true;
+        }
     }
 }

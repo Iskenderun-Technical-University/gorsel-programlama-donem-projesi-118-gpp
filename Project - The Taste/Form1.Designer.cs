@@ -78,16 +78,16 @@ namespace Project___The_Taste
             this.wedget10 = new Project___The_Taste.components.wedget();
             this.wedget11 = new Project___The_Taste.components.wedget();
             this.wedget12 = new Project___The_Taste.components.wedget();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.wedget13 = new Project___The_Taste.components.wedget();
             this.wedget14 = new Project___The_Taste.components.wedget();
             this.wedget19 = new Project___The_Taste.components.wedget();
             this.wedget20 = new Project___The_Taste.components.wedget();
             this.wedget21 = new Project___The_Taste.components.wedget();
             this.wedget22 = new Project___The_Taste.components.wedget();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.sidebar.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.menuButton)).BeginInit();
@@ -121,11 +121,11 @@ namespace Project___The_Taste
             this.sidebar.Controls.Add(this.panel4);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.Location = new System.Drawing.Point(0, 0);
-            this.sidebar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.sidebar.MaximumSize = new System.Drawing.Size(218, 812);
-            this.sidebar.MinimumSize = new System.Drawing.Size(69, 812);
+            this.sidebar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.sidebar.MaximumSize = new System.Drawing.Size(254, 999);
+            this.sidebar.MinimumSize = new System.Drawing.Size(80, 999);
             this.sidebar.Name = "sidebar";
-            this.sidebar.Size = new System.Drawing.Size(208, 812);
+            this.sidebar.Size = new System.Drawing.Size(243, 999);
             this.sidebar.TabIndex = 3;
             this.sidebar.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
@@ -134,10 +134,10 @@ namespace Project___The_Taste
             this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.menuButton);
-            this.panel2.Location = new System.Drawing.Point(3, 2);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel2.Location = new System.Drawing.Point(4, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(223, 81);
+            this.panel2.Size = new System.Drawing.Size(260, 100);
             this.panel2.TabIndex = 1;
             // 
             // label1
@@ -145,9 +145,10 @@ namespace Project___The_Taste
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(63, 38);
+            this.label1.Location = new System.Drawing.Point(74, 47);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 20);
+            this.label1.Size = new System.Drawing.Size(70, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "MENU";
             // 
@@ -155,10 +156,10 @@ namespace Project___The_Taste
             // 
             this.menuButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.menuButton.Image = global::Project___The_Taste.Properties.Resources.ليست_ابيض;
-            this.menuButton.Location = new System.Drawing.Point(15, 27);
-            this.menuButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.menuButton.Location = new System.Drawing.Point(18, 33);
+            this.menuButton.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.menuButton.Name = "menuButton";
-            this.menuButton.Size = new System.Drawing.Size(26, 32);
+            this.menuButton.Size = new System.Drawing.Size(30, 39);
             this.menuButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.menuButton.TabIndex = 0;
             this.menuButton.TabStop = false;
@@ -172,22 +173,22 @@ namespace Project___The_Taste
             this.MealsContainer.Controls.Add(this.panel7);
             this.MealsContainer.Controls.Add(this.panel8);
             this.MealsContainer.Controls.Add(this.panel10);
-            this.MealsContainer.Location = new System.Drawing.Point(3, 87);
-            this.MealsContainer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.MealsContainer.MaximumSize = new System.Drawing.Size(215, 208);
-            this.MealsContainer.MinimumSize = new System.Drawing.Size(215, 54);
+            this.MealsContainer.Location = new System.Drawing.Point(4, 106);
+            this.MealsContainer.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.MealsContainer.MaximumSize = new System.Drawing.Size(251, 256);
+            this.MealsContainer.MinimumSize = new System.Drawing.Size(251, 66);
             this.MealsContainer.Name = "MealsContainer";
-            this.MealsContainer.Size = new System.Drawing.Size(215, 54);
+            this.MealsContainer.Size = new System.Drawing.Size(251, 66);
             this.MealsContainer.TabIndex = 6;
             this.MealsContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.MealsContainer_Paint);
             // 
             // panel9
             // 
             this.panel9.Controls.Add(this.guna2Button7);
-            this.panel9.Location = new System.Drawing.Point(10, 130);
-            this.panel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel9.Location = new System.Drawing.Point(12, 160);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(195, 35);
+            this.panel9.Size = new System.Drawing.Size(227, 43);
             this.panel9.TabIndex = 3;
             // 
             // guna2Button7
@@ -204,10 +205,10 @@ namespace Project___The_Taste
             this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button7.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button7.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button7.Location = new System.Drawing.Point(-5, -16);
-            this.guna2Button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button7.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button7.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(225, 69);
+            this.guna2Button7.Size = new System.Drawing.Size(262, 85);
             this.guna2Button7.TabIndex = 4;
             this.guna2Button7.Text = "         Fish";
             this.guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -217,9 +218,9 @@ namespace Project___The_Taste
             // 
             this.panel1.Controls.Add(this.ButtonMeals);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(220, 54);
+            this.panel1.Size = new System.Drawing.Size(257, 66);
             this.panel1.TabIndex = 0;
             // 
             // ButtonMeals
@@ -236,10 +237,10 @@ namespace Project___The_Taste
             this.ButtonMeals.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.ButtonMeals.ImageOffset = new System.Drawing.Point(20, 0);
             this.ButtonMeals.ImageSize = new System.Drawing.Size(25, 25);
-            this.ButtonMeals.Location = new System.Drawing.Point(-5, -15);
-            this.ButtonMeals.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ButtonMeals.Location = new System.Drawing.Point(-6, -18);
+            this.ButtonMeals.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.ButtonMeals.Name = "ButtonMeals";
-            this.ButtonMeals.Size = new System.Drawing.Size(225, 69);
+            this.ButtonMeals.Size = new System.Drawing.Size(262, 85);
             this.ButtonMeals.TabIndex = 4;
             this.ButtonMeals.Text = "         MEALS";
             this.ButtonMeals.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -249,10 +250,10 @@ namespace Project___The_Taste
             // panel7
             // 
             this.panel7.Controls.Add(this.guna2Button1);
-            this.panel7.Location = new System.Drawing.Point(10, 54);
-            this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel7.Location = new System.Drawing.Point(12, 66);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(195, 35);
+            this.panel7.Size = new System.Drawing.Size(227, 43);
             this.panel7.TabIndex = 1;
             // 
             // guna2Button1
@@ -269,22 +270,23 @@ namespace Project___The_Taste
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button1.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button1.Location = new System.Drawing.Point(-5, -16);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button1.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(225, 69);
+            this.guna2Button1.Size = new System.Drawing.Size(262, 85);
             this.guna2Button1.TabIndex = 4;
             this.guna2Button1.Text = "        Chicken";
             this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.TextOffset = new System.Drawing.Point(5, -5);
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
             // panel8
             // 
             this.panel8.Controls.Add(this.guna2Button6);
-            this.panel8.Location = new System.Drawing.Point(10, 92);
-            this.panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel8.Location = new System.Drawing.Point(12, 113);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(195, 35);
+            this.panel8.Size = new System.Drawing.Size(227, 43);
             this.panel8.TabIndex = 2;
             // 
             // guna2Button6
@@ -301,10 +303,10 @@ namespace Project___The_Taste
             this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button6.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button6.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button6.Location = new System.Drawing.Point(-5, -16);
-            this.guna2Button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button6.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button6.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(225, 69);
+            this.guna2Button6.Size = new System.Drawing.Size(262, 85);
             this.guna2Button6.TabIndex = 4;
             this.guna2Button6.Text = "         Meat";
             this.guna2Button6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -313,10 +315,10 @@ namespace Project___The_Taste
             // panel10
             // 
             this.panel10.Controls.Add(this.guna2Button8);
-            this.panel10.Location = new System.Drawing.Point(10, 165);
-            this.panel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel10.Location = new System.Drawing.Point(12, 203);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(195, 35);
+            this.panel10.Size = new System.Drawing.Size(227, 43);
             this.panel10.TabIndex = 4;
             // 
             // guna2Button8
@@ -333,10 +335,10 @@ namespace Project___The_Taste
             this.guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button8.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button8.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button8.Location = new System.Drawing.Point(-5, -16);
-            this.guna2Button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button8.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button8.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(225, 69);
+            this.guna2Button8.Size = new System.Drawing.Size(262, 85);
             this.guna2Button8.TabIndex = 4;
             this.guna2Button8.Text = "         Hamburger";
             this.guna2Button8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -348,12 +350,12 @@ namespace Project___The_Taste
             this.DrinksContainer.Controls.Add(this.panel3);
             this.DrinksContainer.Controls.Add(this.panel14);
             this.DrinksContainer.Controls.Add(this.panel13);
-            this.DrinksContainer.Location = new System.Drawing.Point(3, 145);
-            this.DrinksContainer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.DrinksContainer.MaximumSize = new System.Drawing.Size(220, 136);
-            this.DrinksContainer.MinimumSize = new System.Drawing.Size(220, 52);
+            this.DrinksContainer.Location = new System.Drawing.Point(4, 176);
+            this.DrinksContainer.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.DrinksContainer.MaximumSize = new System.Drawing.Size(257, 167);
+            this.DrinksContainer.MinimumSize = new System.Drawing.Size(257, 64);
             this.DrinksContainer.Name = "DrinksContainer";
-            this.DrinksContainer.Size = new System.Drawing.Size(220, 52);
+            this.DrinksContainer.Size = new System.Drawing.Size(257, 64);
             this.DrinksContainer.TabIndex = 7;
             this.DrinksContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.DrinksContainer_Paint);
             // 
@@ -361,9 +363,9 @@ namespace Project___The_Taste
             // 
             this.panel3.Controls.Add(this.DrinksButton);
             this.panel3.Location = new System.Drawing.Point(-1, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(220, 57);
+            this.panel3.Size = new System.Drawing.Size(257, 70);
             this.panel3.TabIndex = 2;
             // 
             // DrinksButton
@@ -380,11 +382,11 @@ namespace Project___The_Taste
             this.DrinksButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.DrinksButton.ImageOffset = new System.Drawing.Point(20, 0);
             this.DrinksButton.ImageSize = new System.Drawing.Size(35, 35);
-            this.DrinksButton.Location = new System.Drawing.Point(-9, -13);
-            this.DrinksButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DrinksButton.Location = new System.Drawing.Point(-10, -16);
+            this.DrinksButton.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.DrinksButton.Name = "DrinksButton";
             this.DrinksButton.PressedColor = System.Drawing.Color.White;
-            this.DrinksButton.Size = new System.Drawing.Size(231, 69);
+            this.DrinksButton.Size = new System.Drawing.Size(270, 85);
             this.DrinksButton.TabIndex = 4;
             this.DrinksButton.Text = "        DRINKS";
             this.DrinksButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -394,10 +396,10 @@ namespace Project___The_Taste
             // panel14
             // 
             this.panel14.Controls.Add(this.guna2Button11);
-            this.panel14.Location = new System.Drawing.Point(13, 56);
-            this.panel14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel14.Location = new System.Drawing.Point(15, 69);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(195, 35);
+            this.panel14.Size = new System.Drawing.Size(227, 43);
             this.panel14.TabIndex = 1;
             // 
             // guna2Button11
@@ -414,10 +416,10 @@ namespace Project___The_Taste
             this.guna2Button11.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button11.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button11.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button11.Location = new System.Drawing.Point(-5, -16);
-            this.guna2Button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button11.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button11.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button11.Name = "guna2Button11";
-            this.guna2Button11.Size = new System.Drawing.Size(225, 69);
+            this.guna2Button11.Size = new System.Drawing.Size(262, 85);
             this.guna2Button11.TabIndex = 4;
             this.guna2Button11.Text = "        Cold";
             this.guna2Button11.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -426,10 +428,10 @@ namespace Project___The_Taste
             // panel13
             // 
             this.panel13.Controls.Add(this.guna2Button10);
-            this.panel13.Location = new System.Drawing.Point(13, 93);
-            this.panel13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel13.Location = new System.Drawing.Point(15, 114);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(195, 35);
+            this.panel13.Size = new System.Drawing.Size(227, 43);
             this.panel13.TabIndex = 2;
             // 
             // guna2Button10
@@ -446,10 +448,10 @@ namespace Project___The_Taste
             this.guna2Button10.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button10.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button10.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button10.Location = new System.Drawing.Point(-5, -16);
-            this.guna2Button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button10.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button10.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.Size = new System.Drawing.Size(225, 69);
+            this.guna2Button10.Size = new System.Drawing.Size(262, 85);
             this.guna2Button10.TabIndex = 4;
             this.guna2Button10.Text = "         Hot";
             this.guna2Button10.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -458,10 +460,10 @@ namespace Project___The_Taste
             // panel5
             // 
             this.panel5.Controls.Add(this.guna2Button4);
-            this.panel5.Location = new System.Drawing.Point(3, 201);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel5.Location = new System.Drawing.Point(4, 244);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(220, 54);
+            this.panel5.Size = new System.Drawing.Size(257, 66);
             this.panel5.TabIndex = 4;
             // 
             // guna2Button4
@@ -477,10 +479,10 @@ namespace Project___The_Taste
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button4.ImageOffset = new System.Drawing.Point(20, 0);
             this.guna2Button4.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button4.Location = new System.Drawing.Point(-5, -16);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button4.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(220, 69);
+            this.guna2Button4.Size = new System.Drawing.Size(257, 85);
             this.guna2Button4.TabIndex = 4;
             this.guna2Button4.Text = "         DESSERTS";
             this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -489,10 +491,10 @@ namespace Project___The_Taste
             // panel6
             // 
             this.panel6.Controls.Add(this.guna2Button5);
-            this.panel6.Location = new System.Drawing.Point(3, 259);
-            this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel6.Location = new System.Drawing.Point(4, 314);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(220, 54);
+            this.panel6.Size = new System.Drawing.Size(257, 66);
             this.panel6.TabIndex = 5;
             // 
             // guna2Button5
@@ -508,10 +510,10 @@ namespace Project___The_Taste
             this.guna2Button5.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button5.ImageOffset = new System.Drawing.Point(20, 0);
             this.guna2Button5.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button5.Location = new System.Drawing.Point(-5, -16);
-            this.guna2Button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button5.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(220, 69);
+            this.guna2Button5.Size = new System.Drawing.Size(257, 85);
             this.guna2Button5.TabIndex = 4;
             this.guna2Button5.Text = "         OFFERS";
             this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -520,10 +522,10 @@ namespace Project___The_Taste
             // panel4
             // 
             this.panel4.Controls.Add(this.guna2Button3);
-            this.panel4.Location = new System.Drawing.Point(3, 317);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Location = new System.Drawing.Point(4, 384);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(220, 54);
+            this.panel4.Size = new System.Drawing.Size(257, 66);
             this.panel4.TabIndex = 3;
             // 
             // guna2Button3
@@ -539,10 +541,10 @@ namespace Project___The_Taste
             this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.ImageOffset = new System.Drawing.Point(20, 0);
             this.guna2Button3.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button3.Location = new System.Drawing.Point(-5, -16);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2Button3.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(224, 69);
+            this.guna2Button3.Size = new System.Drawing.Size(261, 85);
             this.guna2Button3.TabIndex = 4;
             this.guna2Button3.Text = "         APPETIZER";
             this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -589,155 +591,210 @@ namespace Project___The_Taste
             this.flowLayoutPanel1.Controls.Add(this.wedget21);
             this.flowLayoutPanel1.Controls.Add(this.wedget22);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(208, -28);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(243, -34);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(893, 715);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1059, 880);
             this.flowLayoutPanel1.TabIndex = 4;
+            this.flowLayoutPanel1.Visible = false;
             // 
             // wedget15
             // 
             this.wedget15.BackColor = System.Drawing.Color.White;
-            this.wedget15.Location = new System.Drawing.Point(3, 2);
-            this.wedget15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget15.Location = new System.Drawing.Point(4, 2);
+            this.wedget15.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget15.Name = "wedget15";
-            this.wedget15.Size = new System.Drawing.Size(339, 106);
+            this.wedget15.Size = new System.Drawing.Size(396, 130);
             this.wedget15.TabIndex = 18;
             // 
             // wedget16
             // 
             this.wedget16.BackColor = System.Drawing.Color.White;
-            this.wedget16.Location = new System.Drawing.Point(348, 2);
-            this.wedget16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget16.Location = new System.Drawing.Point(408, 2);
+            this.wedget16.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget16.Name = "wedget16";
-            this.wedget16.Size = new System.Drawing.Size(339, 106);
+            this.wedget16.Size = new System.Drawing.Size(396, 130);
             this.wedget16.TabIndex = 19;
             // 
             // wedget17
             // 
             this.wedget17.BackColor = System.Drawing.Color.White;
-            this.wedget17.Location = new System.Drawing.Point(3, 112);
-            this.wedget17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget17.Location = new System.Drawing.Point(4, 136);
+            this.wedget17.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget17.Name = "wedget17";
-            this.wedget17.Size = new System.Drawing.Size(339, 106);
+            this.wedget17.Size = new System.Drawing.Size(396, 130);
             this.wedget17.TabIndex = 20;
             // 
             // wedget18
             // 
             this.wedget18.BackColor = System.Drawing.Color.White;
-            this.wedget18.Location = new System.Drawing.Point(348, 112);
-            this.wedget18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget18.Location = new System.Drawing.Point(408, 136);
+            this.wedget18.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget18.Name = "wedget18";
-            this.wedget18.Size = new System.Drawing.Size(339, 106);
+            this.wedget18.Size = new System.Drawing.Size(396, 130);
             this.wedget18.TabIndex = 21;
             // 
             // wedget1
             // 
             this.wedget1.BackColor = System.Drawing.Color.White;
-            this.wedget1.Location = new System.Drawing.Point(3, 222);
-            this.wedget1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget1.Location = new System.Drawing.Point(4, 270);
+            this.wedget1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget1.Name = "wedget1";
-            this.wedget1.Size = new System.Drawing.Size(339, 106);
+            this.wedget1.Size = new System.Drawing.Size(396, 130);
             this.wedget1.TabIndex = 22;
             // 
             // wedget2
             // 
             this.wedget2.BackColor = System.Drawing.Color.White;
-            this.wedget2.Location = new System.Drawing.Point(348, 222);
-            this.wedget2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget2.Location = new System.Drawing.Point(408, 270);
+            this.wedget2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget2.Name = "wedget2";
-            this.wedget2.Size = new System.Drawing.Size(339, 106);
+            this.wedget2.Size = new System.Drawing.Size(396, 130);
             this.wedget2.TabIndex = 23;
             // 
             // wedget3
             // 
             this.wedget3.BackColor = System.Drawing.Color.White;
-            this.wedget3.Location = new System.Drawing.Point(3, 332);
-            this.wedget3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget3.Location = new System.Drawing.Point(4, 404);
+            this.wedget3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget3.Name = "wedget3";
-            this.wedget3.Size = new System.Drawing.Size(339, 106);
+            this.wedget3.Size = new System.Drawing.Size(396, 130);
             this.wedget3.TabIndex = 24;
             // 
             // wedget4
             // 
             this.wedget4.BackColor = System.Drawing.Color.White;
-            this.wedget4.Location = new System.Drawing.Point(348, 332);
-            this.wedget4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget4.Location = new System.Drawing.Point(408, 404);
+            this.wedget4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget4.Name = "wedget4";
-            this.wedget4.Size = new System.Drawing.Size(339, 106);
+            this.wedget4.Size = new System.Drawing.Size(396, 130);
             this.wedget4.TabIndex = 25;
             // 
             // wedget5
             // 
             this.wedget5.BackColor = System.Drawing.Color.White;
-            this.wedget5.Location = new System.Drawing.Point(3, 442);
-            this.wedget5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget5.Location = new System.Drawing.Point(4, 538);
+            this.wedget5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget5.Name = "wedget5";
-            this.wedget5.Size = new System.Drawing.Size(339, 106);
+            this.wedget5.Size = new System.Drawing.Size(396, 130);
             this.wedget5.TabIndex = 26;
             // 
             // wedget6
             // 
             this.wedget6.BackColor = System.Drawing.Color.White;
-            this.wedget6.Location = new System.Drawing.Point(348, 442);
-            this.wedget6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget6.Location = new System.Drawing.Point(408, 538);
+            this.wedget6.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget6.Name = "wedget6";
-            this.wedget6.Size = new System.Drawing.Size(339, 106);
+            this.wedget6.Size = new System.Drawing.Size(396, 130);
             this.wedget6.TabIndex = 27;
             // 
             // wedget7
             // 
             this.wedget7.BackColor = System.Drawing.Color.White;
-            this.wedget7.Location = new System.Drawing.Point(3, 552);
-            this.wedget7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget7.Location = new System.Drawing.Point(4, 672);
+            this.wedget7.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget7.Name = "wedget7";
-            this.wedget7.Size = new System.Drawing.Size(339, 106);
+            this.wedget7.Size = new System.Drawing.Size(396, 130);
             this.wedget7.TabIndex = 28;
             // 
             // wedget8
             // 
             this.wedget8.BackColor = System.Drawing.Color.White;
-            this.wedget8.Location = new System.Drawing.Point(348, 552);
-            this.wedget8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget8.Location = new System.Drawing.Point(408, 672);
+            this.wedget8.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget8.Name = "wedget8";
-            this.wedget8.Size = new System.Drawing.Size(339, 106);
+            this.wedget8.Size = new System.Drawing.Size(396, 130);
             this.wedget8.TabIndex = 29;
             // 
             // wedget9
             // 
             this.wedget9.BackColor = System.Drawing.Color.White;
-            this.wedget9.Location = new System.Drawing.Point(3, 662);
-            this.wedget9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget9.Location = new System.Drawing.Point(4, 806);
+            this.wedget9.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget9.Name = "wedget9";
-            this.wedget9.Size = new System.Drawing.Size(339, 106);
+            this.wedget9.Size = new System.Drawing.Size(396, 130);
             this.wedget9.TabIndex = 30;
             // 
             // wedget10
             // 
             this.wedget10.BackColor = System.Drawing.Color.White;
-            this.wedget10.Location = new System.Drawing.Point(348, 662);
-            this.wedget10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget10.Location = new System.Drawing.Point(408, 806);
+            this.wedget10.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget10.Name = "wedget10";
-            this.wedget10.Size = new System.Drawing.Size(339, 106);
+            this.wedget10.Size = new System.Drawing.Size(396, 130);
             this.wedget10.TabIndex = 31;
             // 
             // wedget11
             // 
             this.wedget11.BackColor = System.Drawing.Color.White;
-            this.wedget11.Location = new System.Drawing.Point(3, 772);
-            this.wedget11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget11.Location = new System.Drawing.Point(4, 940);
+            this.wedget11.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget11.Name = "wedget11";
-            this.wedget11.Size = new System.Drawing.Size(339, 106);
+            this.wedget11.Size = new System.Drawing.Size(396, 130);
             this.wedget11.TabIndex = 32;
             // 
             // wedget12
             // 
             this.wedget12.BackColor = System.Drawing.Color.White;
-            this.wedget12.Location = new System.Drawing.Point(348, 772);
-            this.wedget12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.wedget12.Location = new System.Drawing.Point(408, 940);
+            this.wedget12.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.wedget12.Name = "wedget12";
-            this.wedget12.Size = new System.Drawing.Size(339, 106);
+            this.wedget12.Size = new System.Drawing.Size(396, 130);
             this.wedget12.TabIndex = 33;
+            // 
+            // wedget13
+            // 
+            this.wedget13.BackColor = System.Drawing.Color.White;
+            this.wedget13.Location = new System.Drawing.Point(4, 1074);
+            this.wedget13.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.wedget13.Name = "wedget13";
+            this.wedget13.Size = new System.Drawing.Size(396, 130);
+            this.wedget13.TabIndex = 34;
+            // 
+            // wedget14
+            // 
+            this.wedget14.BackColor = System.Drawing.Color.White;
+            this.wedget14.Location = new System.Drawing.Point(408, 1074);
+            this.wedget14.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.wedget14.Name = "wedget14";
+            this.wedget14.Size = new System.Drawing.Size(396, 130);
+            this.wedget14.TabIndex = 35;
+            // 
+            // wedget19
+            // 
+            this.wedget19.BackColor = System.Drawing.Color.White;
+            this.wedget19.Location = new System.Drawing.Point(4, 1208);
+            this.wedget19.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.wedget19.Name = "wedget19";
+            this.wedget19.Size = new System.Drawing.Size(396, 130);
+            this.wedget19.TabIndex = 36;
+            // 
+            // wedget20
+            // 
+            this.wedget20.BackColor = System.Drawing.Color.White;
+            this.wedget20.Location = new System.Drawing.Point(408, 1208);
+            this.wedget20.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.wedget20.Name = "wedget20";
+            this.wedget20.Size = new System.Drawing.Size(396, 130);
+            this.wedget20.TabIndex = 37;
+            // 
+            // wedget21
+            // 
+            this.wedget21.BackColor = System.Drawing.Color.White;
+            this.wedget21.Location = new System.Drawing.Point(4, 1342);
+            this.wedget21.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.wedget21.Name = "wedget21";
+            this.wedget21.Size = new System.Drawing.Size(396, 130);
+            this.wedget21.TabIndex = 38;
+            // 
+            // wedget22
+            // 
+            this.wedget22.BackColor = System.Drawing.Color.White;
+            this.wedget22.Location = new System.Drawing.Point(408, 1342);
+            this.wedget22.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.wedget22.Name = "wedget22";
+            this.wedget22.Size = new System.Drawing.Size(396, 130);
+            this.wedget22.TabIndex = 39;
             // 
             // guna2Panel1
             // 
@@ -745,10 +802,24 @@ namespace Project___The_Taste
             this.guna2Panel1.Controls.Add(this.guna2PictureBox2);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel1.Location = new System.Drawing.Point(208, 0);
+            this.guna2Panel1.Location = new System.Drawing.Point(243, 0);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(893, 57);
+            this.guna2Panel1.Size = new System.Drawing.Size(1059, 70);
             this.guna2Panel1.TabIndex = 5;
+            // 
+            // guna2Separator1
+            // 
+            this.guna2Separator1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Separator1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.guna2Separator1.FillThickness = 2;
+            this.guna2Separator1.Location = new System.Drawing.Point(0, 58);
+            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.guna2Separator1.Name = "guna2Separator1";
+            this.guna2Separator1.Size = new System.Drawing.Size(1059, 12);
+            this.guna2Separator1.TabIndex = 5;
+            this.guna2Separator1.UseTransparentBackground = true;
+            this.guna2Separator1.Click += new System.EventHandler(this.guna2Separator1_Click);
             // 
             // guna2PictureBox2
             // 
@@ -756,10 +827,10 @@ namespace Project___The_Taste
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = global::Project___The_Taste.Properties.Resources.THE_NAME;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(79, 1);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(92, 1);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(126, 50);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(147, 62);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 4;
             this.guna2PictureBox2.TabStop = false;
@@ -769,92 +840,25 @@ namespace Project___The_Taste
             // 
             this.guna2PictureBox1.Image = global::Project___The_Taste.Properties.Resources.the_hat;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(3, -17);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(4, -21);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(78, 79);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(91, 97);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 3;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
-            // guna2Separator1
-            // 
-            this.guna2Separator1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Separator1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Separator1.FillThickness = 2;
-            this.guna2Separator1.Location = new System.Drawing.Point(0, 47);
-            this.guna2Separator1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(893, 10);
-            this.guna2Separator1.TabIndex = 5;
-            this.guna2Separator1.UseTransparentBackground = true;
-            this.guna2Separator1.Click += new System.EventHandler(this.guna2Separator1_Click);
-            // 
-            // wedget13
-            // 
-            this.wedget13.BackColor = System.Drawing.Color.White;
-            this.wedget13.Location = new System.Drawing.Point(3, 882);
-            this.wedget13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.wedget13.Name = "wedget13";
-            this.wedget13.Size = new System.Drawing.Size(339, 106);
-            this.wedget13.TabIndex = 34;
-            // 
-            // wedget14
-            // 
-            this.wedget14.BackColor = System.Drawing.Color.White;
-            this.wedget14.Location = new System.Drawing.Point(348, 882);
-            this.wedget14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.wedget14.Name = "wedget14";
-            this.wedget14.Size = new System.Drawing.Size(339, 106);
-            this.wedget14.TabIndex = 35;
-            // 
-            // wedget19
-            // 
-            this.wedget19.BackColor = System.Drawing.Color.White;
-            this.wedget19.Location = new System.Drawing.Point(3, 992);
-            this.wedget19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.wedget19.Name = "wedget19";
-            this.wedget19.Size = new System.Drawing.Size(339, 106);
-            this.wedget19.TabIndex = 36;
-            // 
-            // wedget20
-            // 
-            this.wedget20.BackColor = System.Drawing.Color.White;
-            this.wedget20.Location = new System.Drawing.Point(348, 992);
-            this.wedget20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.wedget20.Name = "wedget20";
-            this.wedget20.Size = new System.Drawing.Size(339, 106);
-            this.wedget20.TabIndex = 37;
-            // 
-            // wedget21
-            // 
-            this.wedget21.BackColor = System.Drawing.Color.White;
-            this.wedget21.Location = new System.Drawing.Point(3, 1102);
-            this.wedget21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.wedget21.Name = "wedget21";
-            this.wedget21.Size = new System.Drawing.Size(339, 106);
-            this.wedget21.TabIndex = 38;
-            // 
-            // wedget22
-            // 
-            this.wedget22.BackColor = System.Drawing.Color.White;
-            this.wedget22.Location = new System.Drawing.Point(348, 1102);
-            this.wedget22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.wedget22.Name = "wedget22";
-            this.wedget22.Size = new System.Drawing.Size(339, 106);
-            this.wedget22.TabIndex = 39;
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1101, 687);
+            this.ClientSize = new System.Drawing.Size(1302, 846);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.sidebar);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "Form1";
             this.Text = "The Taste";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
