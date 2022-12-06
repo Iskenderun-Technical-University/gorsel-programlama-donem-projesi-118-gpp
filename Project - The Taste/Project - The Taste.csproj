@@ -214,12 +214,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="components\wedget - Copy.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="components\wedget - Copy.Designer.cs">
-      <DependentUpon>wedget - Copy.cs</DependentUpon>
-    </Compile>
     <Compile Include="components\wedget.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -234,9 +228,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="components\wedget - Copy.resx">
-      <DependentUpon>wedget - Copy.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="components\wedget.resx">
       <DependentUpon>wedget.cs</DependentUpon>
     </EmbeddedResource>

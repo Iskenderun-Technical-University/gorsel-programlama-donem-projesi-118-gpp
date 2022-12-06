@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project___The_Taste.components;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,10 @@ namespace Project___The_Taste
 {
     public partial class Form1 : Form
     {
-        bool sidebarExpand;
-        bool mealsCollapse;
-        bool drinksCollapse;
+        bool sidebarExpand=true;
+        bool mealsCollapse=true;
+        bool drinksCollapse = true;
+        wedget wedgett = new wedget();
         public Form1()
         {
             InitializeComponent();
@@ -154,7 +156,36 @@ namespace Project___The_Taste
 
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
-            flowLayoutPanel1.Visible=true;
+            //chackenPanel.Visible=true;
+            wedget1.guna2PictureBox1.Image = wedget1.List1.Images[0];
+            wedget2.guna2PictureBox1.Image = wedget2.List1.Images[0];
+            wedget3.guna2PictureBox1.Image = wedget3.List1.Images[0];
+            wedget4.guna2PictureBox1.Image = wedget4.List1.Images[0];
+            wedget5.guna2PictureBox1.Image = wedget5.List1.Images[0];
+            wedget6.guna2PictureBox1.Image = wedget6.List1.Images[0];
+            wedget7.guna2PictureBox1.Image = wedget7.List1.Images[0];
+            wedget8.guna2PictureBox1.Image = wedget8.List1.Images[0];
+            wedget9.guna2PictureBox1.Image = wedget9.List1.Images[0];
+            wedget10.guna2PictureBox1.Image = wedget10.List1.Images[0];
+        }
+
+        private void wedget3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            wedget1.guna2PictureBox1.Image = wedget1.List1.Images[1];
+            wedget2.guna2PictureBox1.Image = wedget2.List1.Images[1];
+            wedget3.guna2PictureBox1.Image = wedget3.List1.Images[1];
+            wedget4.guna2PictureBox1.Image = wedget4.List1.Images[1];
+            wedget5.guna2PictureBox1.Image = wedget5.List1.Images[1];
+            wedget6.guna2PictureBox1.Image = wedget6.List1.Images[1];
+            wedget7.guna2PictureBox1.Image = wedget7.List1.Images[1];
+            wedget8.guna2PictureBox1.Image = wedget8.List1.Images[1];
+            wedget9.guna2PictureBox1.Image = wedget9.List1.Images[1];
+            wedget10.guna2PictureBox1.Image = wedget10.List1.Images[1];
         }
     }
 }

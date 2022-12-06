@@ -29,11 +29,14 @@ namespace Project___The_Taste.components
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(wedget));
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Ch = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.List1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2ShadowPanel1.SuspendLayout();
@@ -99,6 +102,13 @@ namespace Project___The_Taste.components
             this.guna2ShadowPanel1.Size = new System.Drawing.Size(383, 117);
             this.guna2ShadowPanel1.TabIndex = 4;
             // 
+            // List1
+            // 
+            this.List1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("List1.ImageStream")));
+            this.List1.TransparentColor = System.Drawing.Color.Transparent;
+            this.List1.Images.SetKeyName(0, "Chicken parmesan pasta.png");
+            this.List1.Images.SetKeyName(1, "Teriyaki Goat Meat Skewers.jpg");
+            // 
             // wedget
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -117,11 +127,11 @@ namespace Project___The_Taste.components
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Label Ch;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
+        public System.Windows.Forms.ImageList List1;
+        public Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }
