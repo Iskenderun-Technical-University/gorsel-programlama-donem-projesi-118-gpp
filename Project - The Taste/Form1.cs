@@ -158,15 +158,15 @@ namespace Project___The_Taste
         {
             //chackenPanel.Visible=true;
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[0];
-            wedget2.guna2PictureBox1.Image = wedget2.List1.Images[0];
-            wedget3.guna2PictureBox1.Image = wedget3.List1.Images[0];
-            wedget4.guna2PictureBox1.Image = wedget4.List1.Images[0];
-            wedget5.guna2PictureBox1.Image = wedget5.List1.Images[0];
-            wedget6.guna2PictureBox1.Image = wedget6.List1.Images[0];
-            wedget7.guna2PictureBox1.Image = wedget7.List1.Images[0];
-            wedget8.guna2PictureBox1.Image = wedget8.List1.Images[0];
-            wedget9.guna2PictureBox1.Image = wedget9.List1.Images[0];
-            wedget10.guna2PictureBox1.Image = wedget10.List1.Images[0];
+            wedget2.guna2PictureBox1.Image = wedget2.List1.Images[12];
+            wedget3.guna2PictureBox1.Image = wedget3.List1.Images[13];
+            wedget4.guna2PictureBox1.Image = wedget4.List1.Images[14];
+            wedget5.guna2PictureBox1.Image = wedget5.List1.Images[15];
+            wedget6.guna2PictureBox1.Image = wedget6.List1.Images[16];
+            wedget7.guna2PictureBox1.Image = wedget7.List1.Images[17];
+            wedget8.guna2PictureBox1.Image = wedget8.List1.Images[18];
+            wedget9.guna2PictureBox1.Image = wedget9.List1.Images[19];
+            wedget10.guna2PictureBox1.Image = wedget10.List1.Images[20];
         }
 
         private void wedget3_Load(object sender, EventArgs e)
