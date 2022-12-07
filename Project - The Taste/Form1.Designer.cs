@@ -406,14 +406,15 @@ namespace Project___The_Taste
             this.guna2Button11.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button11.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button11.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button11.Location = new System.Drawing.Point(-7, -20);
+            this.guna2Button11.Location = new System.Drawing.Point(-7, 3);
             this.guna2Button11.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.guna2Button11.Name = "guna2Button11";
-            this.guna2Button11.Size = new System.Drawing.Size(299, 85);
+            this.guna2Button11.Size = new System.Drawing.Size(299, 46);
             this.guna2Button11.TabIndex = 4;
             this.guna2Button11.Text = "        Cold";
             this.guna2Button11.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button11.TextOffset = new System.Drawing.Point(5, -5);
+            this.guna2Button11.Click += new System.EventHandler(this.guna2Button11_Click);
             // 
             // panel13
             // 
@@ -438,10 +439,10 @@ namespace Project___The_Taste
             this.guna2Button10.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button10.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button10.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button10.Location = new System.Drawing.Point(-7, -20);
+            this.guna2Button10.Location = new System.Drawing.Point(-7, -1);
             this.guna2Button10.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.Size = new System.Drawing.Size(299, 85);
+            this.guna2Button10.Size = new System.Drawing.Size(299, 47);
             this.guna2Button10.TabIndex = 4;
             this.guna2Button10.Text = "         Hot";
             this.guna2Button10.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;

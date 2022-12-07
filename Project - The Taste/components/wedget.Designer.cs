@@ -46,9 +46,9 @@ namespace Project___The_Taste.components
             // 
             this.guna2PictureBox1.Image = global::Project___The_Taste.Properties.Resources.Chicken_parmesan_pasta1;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(311, 7);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(330, 7);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(117, 104);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(109, 108);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -94,12 +94,12 @@ namespace Project___The_Taste.components
             this.guna2ShadowPanel1.Controls.Add(this.guna2PictureBox1);
             this.guna2ShadowPanel1.Controls.Add(this.Ch);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(9, 5);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(3, 5);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.LightGray;
             this.guna2ShadowPanel1.ShadowDepth = 60;
             this.guna2ShadowPanel1.ShadowShift = 7;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(438, 117);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(444, 122);
             this.guna2ShadowPanel1.TabIndex = 4;
             // 
             // List1
@@ -127,6 +127,17 @@ namespace Project___The_Taste.components
             this.List1.Images.SetKeyName(18, "Butter Chicken (Murgh Makhani).png");
             this.List1.Images.SetKeyName(19, "Chicken and Avocado Quesadillas.png");
             this.List1.Images.SetKeyName(20, "Chicken Fajitas _ The Modern Proper.png");
+            this.List1.Images.SetKeyName(21, "28.jpg");
+            this.List1.Images.SetKeyName(22, "5036-sprite-gazoz-limon-250-ml-sprite-250-jpg-sprite-250.jpg");
+            this.List1.Images.SetKeyName(23, "08010700_yan-c74476-1650x1650.jpg");
+            this.List1.Images.SetKeyName(24, "Aabdedce013954bfdb150db479cb620b9Q.jpg");
+            this.List1.Images.SetKeyName(25, "best-vegan-chocolate-milkshake-11.jpg");
+            this.List1.Images.SetKeyName(26, "coffee-milkshake-square.jpg");
+            this.List1.Images.SetKeyName(27, "fbc0f4a2-2425-4cdf-9c71-8f3e55d19b7a_size780x780_quality60_cropCenter.jpg");
+            this.List1.Images.SetKeyName(28, "istockphoto-139555306-170667a.jpg");
+            this.List1.Images.SetKeyName(29, "sirma-sparkling-mineral-water_5027_98742.png");
+            this.List1.Images.SetKeyName(30, "sutas-ayran-300-ml-5332e7-1650x1650.jpg");
+            this.List1.Images.SetKeyName(31, "2a955f6136bc5fe7065f13d8eb3a580a.jpg");
             // 
             // wedget
             // 
