@@ -109,6 +109,15 @@ namespace Project___The_Taste.components
             this.List1.Images.SetKeyName(0, "Chicken parmesan pasta.png");
             this.List1.Images.SetKeyName(1, "Teriyaki Goat Meat Skewers.jpg");
             this.List1.Images.SetKeyName(2, "download.jpg");
+            this.List1.Images.SetKeyName(3, "Thai Fish Curry.jpg");
+            this.List1.Images.SetKeyName(4, "Seafood Recipes -- Gorton\'s Seafood.jpg");
+            this.List1.Images.SetKeyName(5, "Kerala Fish Fry _ The Take It Easy Chef.jpg");
+            this.List1.Images.SetKeyName(6, "Thai Steamed Fish with Lime and Garlic - Tiffy Cooks.png");
+            this.List1.Images.SetKeyName(7, "Indian Omelet Masala Egg Curry  Recipe _ ChefDeHome_com.jpg");
+            this.List1.Images.SetKeyName(8, "STICKY BUTTERY HONEY GARLIC SHRIMP - Chefjar.jpg");
+            this.List1.Images.SetKeyName(9, "Baked Salmon with Garlic Butter.jpg");
+            this.List1.Images.SetKeyName(10, "Malabar Style Chemmeen Curry _ Prawns Curry (Step by Step  Pics).jpg");
+            this.List1.Images.SetKeyName(11, "Amritsari Fish _ Indian Style Fish and Chips _ Video - NISH KITCHEN.jpg");
             // 
             // wedget
             // 
