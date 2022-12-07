@@ -108,6 +108,7 @@ namespace Project___The_Taste.components
             this.List1.TransparentColor = System.Drawing.Color.Transparent;
             this.List1.Images.SetKeyName(0, "Chicken parmesan pasta.png");
             this.List1.Images.SetKeyName(1, "Teriyaki Goat Meat Skewers.jpg");
+            this.List1.Images.SetKeyName(2, "download.jpg");
             // 
             // wedget
             // 

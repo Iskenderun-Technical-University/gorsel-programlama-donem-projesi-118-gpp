@@ -52,12 +52,12 @@ namespace Project___The_Taste
             this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
             this.panel13 = new System.Windows.Forms.Panel();
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.Sidebartimer = new System.Windows.Forms.Timer(this.components);
             this.MealsTimer = new System.Windows.Forms.Timer(this.components);
             this.DrinksTimer = new System.Windows.Forms.Timer(this.components);
@@ -89,9 +89,9 @@ namespace Project___The_Taste
             this.panel3.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel13.SuspendLayout();
-            this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -104,9 +104,9 @@ namespace Project___The_Taste
             this.sidebar.Controls.Add(this.panel2);
             this.sidebar.Controls.Add(this.MealsContainer);
             this.sidebar.Controls.Add(this.DrinksContainer);
+            this.sidebar.Controls.Add(this.panel5);
             this.sidebar.Controls.Add(this.panel6);
             this.sidebar.Controls.Add(this.panel4);
-            this.sidebar.Controls.Add(this.panel5);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.Location = new System.Drawing.Point(0, 0);
             this.sidebar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
@@ -201,6 +201,7 @@ namespace Project___The_Taste
             this.guna2Button7.Text = "         Fish";
             this.guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button7.TextOffset = new System.Drawing.Point(5, -5);
+            this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
             // 
             // panel1
             // 
@@ -446,41 +447,10 @@ namespace Project___The_Taste
             this.guna2Button10.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button10.TextOffset = new System.Drawing.Point(5, -5);
             // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.guna2Button4);
-            this.panel5.Location = new System.Drawing.Point(4, 384);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(257, 66);
-            this.panel5.TabIndex = 4;
-            // 
-            // guna2Button4
-            // 
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.Font = new System.Drawing.Font("Lucida Bright", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Image = global::Project___The_Taste.Properties.Resources.ice_cream;
-            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.ImageOffset = new System.Drawing.Point(20, 0);
-            this.guna2Button4.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button4.Location = new System.Drawing.Point(-6, -20);
-            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(257, 85);
-            this.guna2Button4.TabIndex = 4;
-            this.guna2Button4.Text = "         DESSERTS";
-            this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.TextOffset = new System.Drawing.Point(-10, 2);
-            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.guna2Button5);
-            this.panel6.Location = new System.Drawing.Point(4, 244);
+            this.panel6.Location = new System.Drawing.Point(4, 314);
             this.panel6.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(257, 66);
@@ -511,7 +481,7 @@ namespace Project___The_Taste
             // panel4
             // 
             this.panel4.Controls.Add(this.guna2Button3);
-            this.panel4.Location = new System.Drawing.Point(4, 314);
+            this.panel4.Location = new System.Drawing.Point(4, 384);
             this.panel4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(257, 66);
@@ -538,6 +508,37 @@ namespace Project___The_Taste
             this.guna2Button3.Text = "         APPETIZER";
             this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.TextOffset = new System.Drawing.Point(-10, 2);
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.guna2Button4);
+            this.panel5.Location = new System.Drawing.Point(4, 244);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(257, 66);
+            this.panel5.TabIndex = 4;
+            // 
+            // guna2Button4
+            // 
+            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button4.FillColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.Font = new System.Drawing.Font("Lucida Bright", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button4.ForeColor = System.Drawing.Color.White;
+            this.guna2Button4.Image = global::Project___The_Taste.Properties.Resources.ice_cream;
+            this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button4.ImageOffset = new System.Drawing.Point(20, 0);
+            this.guna2Button4.ImageSize = new System.Drawing.Size(25, 25);
+            this.guna2Button4.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.Size = new System.Drawing.Size(257, 85);
+            this.guna2Button4.TabIndex = 4;
+            this.guna2Button4.Text = "         DESSERTS";
+            this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button4.TextOffset = new System.Drawing.Point(-10, 2);
             // 
             // Sidebartimer
             // 
@@ -738,9 +739,9 @@ namespace Project___The_Taste
             this.panel3.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();

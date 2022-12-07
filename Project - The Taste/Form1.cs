@@ -187,5 +187,19 @@ namespace Project___The_Taste
             wedget9.guna2PictureBox1.Image = wedget9.List1.Images[1];
             wedget10.guna2PictureBox1.Image = wedget10.List1.Images[1];
         }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            wedget1.guna2PictureBox1.Image = wedget1.List1.Images[2];
+            wedget2.guna2PictureBox1.Image = wedget2.List1.Images[2];
+            wedget3.guna2PictureBox1.Image = wedget3.List1.Images[2];
+            wedget4.guna2PictureBox1.Image = wedget4.List1.Images[2];
+            wedget5.guna2PictureBox1.Image = wedget5.List1.Images[2];
+            wedget6.guna2PictureBox1.Image = wedget6.List1.Images[2];
+            wedget7.guna2PictureBox1.Image = wedget7.List1.Images[2];
+            wedget8.guna2PictureBox1.Image = wedget8.List1.Images[2];
+            wedget9.guna2PictureBox1.Image = wedget9.List1.Images[2];
+            wedget10.guna2PictureBox1.Image = wedget10.List1.Images[2];
+        }
     }
 }
