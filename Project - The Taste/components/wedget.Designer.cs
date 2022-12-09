@@ -46,9 +46,9 @@ namespace Project___The_Taste.components
             // 
             this.guna2PictureBox1.Image = global::Project___The_Taste.Properties.Resources.Chicken_parmesan_pasta1;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(289, 7);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(308, 10);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(95, 108);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(115, 118);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -70,7 +70,7 @@ namespace Project___The_Taste.components
             this.guna2GradientPanel1.Controls.Add(this.label1);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(27)))), ((int)(((byte)(55)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(94)))), ((int)(((byte)(117)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(140, 71);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(195, 89);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
             this.guna2GradientPanel1.Size = new System.Drawing.Size(95, 32);
             this.guna2GradientPanel1.TabIndex = 2;
@@ -81,11 +81,11 @@ namespace Project___The_Taste.components
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(18, 0);
+            this.label1.Location = new System.Drawing.Point(15, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 25);
+            this.label1.Size = new System.Drawing.Size(66, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "2000 $";
+            this.label1.Text = "500 $";
             // 
             // guna2ShadowPanel1
             // 
@@ -99,8 +99,9 @@ namespace Project___The_Taste.components
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.LightGray;
             this.guna2ShadowPanel1.ShadowDepth = 60;
             this.guna2ShadowPanel1.ShadowShift = 7;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(388, 122);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(438, 149);
             this.guna2ShadowPanel1.TabIndex = 4;
+            this.guna2ShadowPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel1_Paint);
             // 
             // List1
             // 
@@ -152,7 +153,7 @@ namespace Project___The_Taste.components
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.guna2ShadowPanel1);
             this.Name = "wedget";
-            this.Size = new System.Drawing.Size(395, 130);
+            this.Size = new System.Drawing.Size(444, 160);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();

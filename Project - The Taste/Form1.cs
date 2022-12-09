@@ -19,9 +19,9 @@ namespace Project___The_Taste
         bool drinksCollapse = true;
         wedget wedgett = new wedget();
 
-        static string[] Chicken={ "Chicken Parmesan Pasta", "Creamy Chicken Stroganoff", "Broccoli Cheese Quesadilla with Chipotle Sauce",
-        "Chipotle Chicken Taquitos", "Air Fryer Chicken Breast","Air Fryer Parmesan Crusted Chicken with Mayo","Blackened Chicken Alfredo",
-        "Butter Chicken","Chicken and Avocado Quesadillas","Chicken Fajitas","Ayam geprek","ayam taliwang bakar teflon yscooking",
+        static string[] Chicken={ "Chicken Parmesan\nPasta", "Creamy Chicken\nStroganoff", "Broccoli Cheese\nQuesadilla with Chipotle\nSauce",
+        "Chipotle Chicken\nTaquitos", "Air Fryer Chicken\nBreast","Air Fryer Parmesan\nCrusted Chicken with\nMayo","Blackened Chicken\nAlfredo",
+        "Butter Chicken","Chicken and Avocado\nQuesadillas","Chicken Fajitas","Ayam geprek","ayam taliwang bakar\nteflon yscooking",
         "Chicken Afritada","Arroz con Pollo","saftiges backhendl","Barbecued Chicken"};
         static string[] Meat={ };
         static string[] fish= { };
@@ -197,6 +197,20 @@ namespace Project___The_Taste
 
             wedget1.Ch.Text = Chicken[0];
             wedget2.Ch.Text = Chicken[1];
+            wedget3.Ch.Text = Chicken[2];
+            wedget4.Ch.Text = Chicken[3];
+            wedget5.Ch.Text = Chicken[4];
+            wedget6.Ch.Text = Chicken[5];
+            wedget7.Ch.Text = Chicken[6];
+            wedget8.Ch.Text = Chicken[7];
+            wedget9.Ch.Text = Chicken[8];
+            wedget10.Ch.Text = Chicken[9];
+            wedget11.Ch.Text = Chicken[10];
+            wedget12.Ch.Text = Chicken[11];
+            wedget13.Ch.Text = Chicken[12];
+            wedget14.Ch.Text = Chicken[13];
+            wedget15.Ch.Text = Chicken[14];
+            wedget16.Ch.Text = Chicken[15];
 
         }
 

@@ -26,5 +26,10 @@ namespace Project___The_Taste.components
         {
 
         }
+
+        private void guna2ShadowPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
