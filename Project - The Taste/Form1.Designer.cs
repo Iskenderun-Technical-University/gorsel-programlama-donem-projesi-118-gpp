@@ -107,8 +107,8 @@ namespace Project___The_Taste
             this.sidebar.Controls.Add(this.panel2);
             this.sidebar.Controls.Add(this.MealsContainer);
             this.sidebar.Controls.Add(this.DrinksContainer);
-            this.sidebar.Controls.Add(this.panel4);
             this.sidebar.Controls.Add(this.panel5);
+            this.sidebar.Controls.Add(this.panel4);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.Location = new System.Drawing.Point(0, 0);
             this.sidebar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
@@ -236,7 +236,7 @@ namespace Project___The_Taste
             // panel4
             // 
             this.panel4.Controls.Add(this.guna2Button3);
-            this.panel4.Location = new System.Drawing.Point(4, 244);
+            this.panel4.Location = new System.Drawing.Point(4, 314);
             this.panel4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(257, 66);
@@ -267,7 +267,7 @@ namespace Project___The_Taste
             // panel5
             // 
             this.panel5.Controls.Add(this.guna2Button4);
-            this.panel5.Location = new System.Drawing.Point(4, 314);
+            this.panel5.Location = new System.Drawing.Point(4, 244);
             this.panel5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(257, 66);

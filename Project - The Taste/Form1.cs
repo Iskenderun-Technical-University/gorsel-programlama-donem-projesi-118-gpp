@@ -24,7 +24,8 @@ namespace Project___The_Taste
         "Butter Chicken","Chicken and Avocado\nQuesadillas","Chicken Fajitas","Ayam geprek","ayam taliwang bakar\nteflon yscooking",
         "Chicken Afritada","Arroz con Pollo","saftiges backhendl","Barbecued Chicken"};
         static string[] Meat={ };
-        static string[] fish= { };
+        static string[] fish= { "Masala Fried Pomfret", "Thai Fish Curry", "Gorton's Seafood", "Kerala Fish Fry", "Thai Steamed Fish with\nLime and Garlic", "Indian Omelet Masala\nEgg Curry",
+        "Sticky Buttery Honey\nGarlic Shrimp","Baked Salmon with Garlic\nButter","Malabar Style Chemmeen\nCurry","Indian Style Fish and\nChips"};
         static string[] Hamburger = { };
         static string[] drinksCold = { };
         static string[] drinksHot = { };
@@ -261,6 +262,17 @@ namespace Project___The_Taste
             wedget14.Visible = false;
             wedget15.Visible = false;
             wedget16.Visible = false;
+
+            wedget1.Ch.Text = fish[0];
+            wedget2.Ch.Text = fish[1];
+            wedget3.Ch.Text = fish[2];
+            wedget4.Ch.Text = fish[3];
+            wedget5.Ch.Text = fish[4];
+            wedget6.Ch.Text = fish[5];
+            wedget7.Ch.Text = fish[6];
+            wedget8.Ch.Text = fish[7];
+            wedget9.Ch.Text = fish[8];
+            wedget10.Ch.Text = fish[9];
 
         }
 
