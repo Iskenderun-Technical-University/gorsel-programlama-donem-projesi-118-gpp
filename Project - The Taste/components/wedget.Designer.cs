@@ -46,9 +46,9 @@ namespace Project___The_Taste.components
             // 
             this.guna2PictureBox1.Image = global::Project___The_Taste.Properties.Resources.Chicken_parmesan_pasta1;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(330, 7);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(289, 7);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(109, 108);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(95, 108);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -58,9 +58,9 @@ namespace Project___The_Taste.components
             // 
             this.Ch.AutoSize = true;
             this.Ch.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ch.Location = new System.Drawing.Point(13, 10);
+            this.Ch.Location = new System.Drawing.Point(11, 10);
             this.Ch.Name = "Ch";
-            this.Ch.Size = new System.Drawing.Size(244, 54);
+            this.Ch.Size = new System.Drawing.Size(231, 52);
             this.Ch.TabIndex = 1;
             this.Ch.Text = "Chicken Parmesan \r\nPasta";
             this.Ch.Click += new System.EventHandler(this.Ch_Click);
@@ -70,9 +70,9 @@ namespace Project___The_Taste.components
             this.guna2GradientPanel1.Controls.Add(this.label1);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(27)))), ((int)(((byte)(55)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(94)))), ((int)(((byte)(117)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(160, 71);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(140, 71);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(109, 32);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(95, 32);
             this.guna2GradientPanel1.TabIndex = 2;
             // 
             // label1
@@ -81,7 +81,7 @@ namespace Project___The_Taste.components
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(21, 0);
+            this.label1.Location = new System.Drawing.Point(18, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 25);
             this.label1.TabIndex = 0;
@@ -99,7 +99,7 @@ namespace Project___The_Taste.components
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.LightGray;
             this.guna2ShadowPanel1.ShadowDepth = 60;
             this.guna2ShadowPanel1.ShadowShift = 7;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(444, 122);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(388, 122);
             this.guna2ShadowPanel1.TabIndex = 4;
             // 
             // List1
@@ -138,15 +138,21 @@ namespace Project___The_Taste.components
             this.List1.Images.SetKeyName(29, "sirma-sparkling-mineral-water_5027_98742.png");
             this.List1.Images.SetKeyName(30, "sutas-ayran-300-ml-5332e7-1650x1650.jpg");
             this.List1.Images.SetKeyName(31, "2a955f6136bc5fe7065f13d8eb3a580a.jpg");
+            this.List1.Images.SetKeyName(32, "Ayam_geprek.png");
+            this.List1.Images.SetKeyName(33, "ayam-taliwang-bakar-teflon-yscooking.jpg");
+            this.List1.Images.SetKeyName(34, "Chicken-Afritada-II.jpg");
+            this.List1.Images.SetKeyName(35, "Easy-and-Flavorful-Arroz-con-Pollo-13-1.jpg");
+            this.List1.Images.SetKeyName(36, "eut202103038-saftiges-backhendl-jpg.jpg");
+            this.List1.Images.SetKeyName(37, "Favorite-Barbecued-Chicken_EXPS_THJJ17_33111_D02_02_4b.jpg");
             // 
             // wedget
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.guna2ShadowPanel1);
             this.Name = "wedget";
-            this.Size = new System.Drawing.Size(451, 130);
+            this.Size = new System.Drawing.Size(395, 130);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
@@ -157,11 +163,11 @@ namespace Project___The_Taste.components
         }
 
         #endregion
-        private System.Windows.Forms.Label Ch;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
         public System.Windows.Forms.ImageList List1;
         public Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        public System.Windows.Forms.Label Ch;
     }
 }

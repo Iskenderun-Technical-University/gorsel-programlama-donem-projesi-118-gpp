@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,20 @@ namespace Project___The_Taste
         bool mealsCollapse=true;
         bool drinksCollapse = true;
         wedget wedgett = new wedget();
+
+        static string[] Chicken={ "Chicken Parmesan Pasta", "Creamy Chicken Stroganoff", "Broccoli Cheese Quesadilla with Chipotle Sauce",
+        "Chipotle Chicken Taquitos", "Air Fryer Chicken Breast","Air Fryer Parmesan Crusted Chicken with Mayo","Blackened Chicken Alfredo",
+        "Butter Chicken","Chicken and Avocado Quesadillas","Chicken Fajitas","Ayam geprek","ayam taliwang bakar teflon yscooking",
+        "Chicken Afritada","Arroz con Pollo","saftiges backhendl","Barbecued Chicken"};
+        static string[] Meat={ };
+        static string[] fish= { };
+        static string[] Hamburger = { };
+        static string[] drinksCold = { };
+        static string[] drinksHot = { };
+        static string[] APPETIZER = { };
+        static string[] DESSERTS = { };
+
+
         public Form1()
         {
             InitializeComponent();
@@ -167,6 +182,22 @@ namespace Project___The_Taste
             wedget8.guna2PictureBox1.Image = wedget8.List1.Images[18];
             wedget9.guna2PictureBox1.Image = wedget9.List1.Images[19];
             wedget10.guna2PictureBox1.Image = wedget10.List1.Images[20];
+            wedget11.guna2PictureBox1.Image = wedget11.List1.Images[32];
+            wedget12.guna2PictureBox1.Image = wedget12.List1.Images[33];
+            wedget13.guna2PictureBox1.Image = wedget13.List1.Images[34];
+            wedget14.guna2PictureBox1.Image = wedget14.List1.Images[35];
+            wedget15.guna2PictureBox1.Image = wedget15.List1.Images[36];
+            wedget16.guna2PictureBox1.Image = wedget16.List1.Images[37];
+            wedget11.Visible = true;
+            wedget12.Visible = true;
+            wedget13.Visible = true;
+            wedget14.Visible = true;
+            wedget15.Visible = true;
+            wedget16.Visible = true;
+
+            wedget1.Ch.Text = Chicken[0];
+            wedget2.Ch.Text = Chicken[1];
+
         }
 
         private void wedget3_Load(object sender, EventArgs e)
@@ -186,6 +217,14 @@ namespace Project___The_Taste
             wedget8.guna2PictureBox1.Image = wedget8.List1.Images[1];
             wedget9.guna2PictureBox1.Image = wedget9.List1.Images[1];
             wedget10.guna2PictureBox1.Image = wedget10.List1.Images[1];
+            wedget11.Visible= false;
+            wedget12.Visible = false;
+            wedget13.Visible = false;
+            wedget14.Visible = false;
+            wedget15.Visible = false;
+            wedget16.Visible = false;
+
+
         }
 
         private void guna2Button7_Click(object sender, EventArgs e)
@@ -200,6 +239,15 @@ namespace Project___The_Taste
             wedget8.guna2PictureBox1.Image = wedget8.List1.Images[9];
             wedget9.guna2PictureBox1.Image = wedget9.List1.Images[10];
             wedget10.guna2PictureBox1.Image = wedget10.List1.Images[11];
+            wedget10.guna2PictureBox1.Image = wedget10.List1.Images[11];
+
+            wedget11.Visible = true;
+            wedget12.Visible = false;
+            wedget13.Visible = false;
+            wedget14.Visible = false;
+            wedget15.Visible = false;
+            wedget16.Visible = false;
+
         }
 
         private void guna2Button11_Click(object sender, EventArgs e)
@@ -214,6 +262,14 @@ namespace Project___The_Taste
             wedget8.guna2PictureBox1.Image = wedget8.List1.Images[28];
             wedget9.guna2PictureBox1.Image = wedget9.List1.Images[29];
             wedget10.guna2PictureBox1.Image = wedget10.List1.Images[30];
+            
+            wedget11.Visible = false;
+            wedget12.Visible = false;
+            wedget13.Visible = false;
+            wedget14.Visible = false;
+            wedget15.Visible = false;
+            wedget16.Visible = false;
+
 
         }
     }
