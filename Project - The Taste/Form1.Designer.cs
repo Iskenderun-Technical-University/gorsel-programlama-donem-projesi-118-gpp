@@ -449,6 +449,7 @@ namespace Project___The_Taste
             this.guna2Button10.Text = "         Hot";
             this.guna2Button10.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button10.TextOffset = new System.Drawing.Point(5, -5);
+            this.guna2Button10.Click += new System.EventHandler(this.guna2Button10_Click);
             // 
             // panel5
             // 

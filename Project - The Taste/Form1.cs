@@ -255,7 +255,7 @@ namespace Project___The_Taste
             wedget8.guna2PictureBox1.Image = wedget8.List1.Images[9];
             wedget9.guna2PictureBox1.Image = wedget9.List1.Images[10];
             wedget10.guna2PictureBox1.Image = wedget10.List1.Images[11];
-            wedget10.guna2PictureBox1.Image = wedget10.List1.Images[11];
+            
 
             wedget11.Visible = true;
             wedget12.Visible = false;
@@ -312,6 +312,29 @@ namespace Project___The_Taste
             wedget11.Ch.Text = drinksCold[10];
 
 
+        }
+
+        private void guna2Button10_Click(object sender, EventArgs e)
+        {
+            //HotDrinksPanel.Visible=true;
+
+            wedget1.guna2PictureBox1.Image = wedget1.List1.Images[38];
+            wedget2.guna2PictureBox1.Image = wedget2.List1.Images[39];
+            wedget3.guna2PictureBox1.Image = wedget3.List1.Images[40];
+            wedget4.guna2PictureBox1.Image = wedget4.List1.Images[41];
+            wedget5.guna2PictureBox1.Image = wedget5.List1.Images[42];
+            wedget6.guna2PictureBox1.Image = wedget6.List1.Images[43];
+            wedget7.guna2PictureBox1.Image = wedget7.List1.Images[44];
+            wedget8.guna2PictureBox1.Image = wedget8.List1.Images[45];
+
+            wedget9.Visible = false;
+            wedget10.Visible = false;
+            wedget11.Visible = false;
+            wedget12.Visible = false;
+            wedget13.Visible = false;
+            wedget14.Visible = false;
+            wedget15.Visible = false;
+            wedget16.Visible = false;
         }
     }
 }
