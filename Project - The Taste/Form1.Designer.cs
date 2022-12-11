@@ -104,11 +104,11 @@ namespace Project___The_Taste
             // sidebar
             // 
             this.sidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(27)))), ((int)(((byte)(55)))));
-            this.sidebar.Controls.Add(this.panel5);
-            this.sidebar.Controls.Add(this.panel4);
             this.sidebar.Controls.Add(this.panel2);
             this.sidebar.Controls.Add(this.MealsContainer);
             this.sidebar.Controls.Add(this.DrinksContainer);
+            this.sidebar.Controls.Add(this.panel5);
+            this.sidebar.Controls.Add(this.panel4);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.Location = new System.Drawing.Point(0, 0);
             this.sidebar.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
@@ -124,7 +124,7 @@ namespace Project___The_Taste
             this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.menuButton);
-            this.panel2.Location = new System.Drawing.Point(5, 142);
+            this.panel2.Location = new System.Drawing.Point(5, 2);
             this.panel2.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(297, 100);
@@ -163,7 +163,7 @@ namespace Project___The_Taste
             this.MealsContainer.Controls.Add(this.panel7);
             this.MealsContainer.Controls.Add(this.panel8);
             this.MealsContainer.Controls.Add(this.panel10);
-            this.MealsContainer.Location = new System.Drawing.Point(5, 246);
+            this.MealsContainer.Location = new System.Drawing.Point(5, 106);
             this.MealsContainer.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.MealsContainer.MaximumSize = new System.Drawing.Size(287, 256);
             this.MealsContainer.MinimumSize = new System.Drawing.Size(287, 66);
@@ -342,12 +342,12 @@ namespace Project___The_Taste
             this.DrinksContainer.Controls.Add(this.panel3);
             this.DrinksContainer.Controls.Add(this.panel14);
             this.DrinksContainer.Controls.Add(this.panel13);
-            this.DrinksContainer.Location = new System.Drawing.Point(5, 316);
+            this.DrinksContainer.Location = new System.Drawing.Point(5, 176);
             this.DrinksContainer.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.DrinksContainer.MaximumSize = new System.Drawing.Size(294, 167);
             this.DrinksContainer.MinimumSize = new System.Drawing.Size(294, 64);
             this.DrinksContainer.Name = "DrinksContainer";
-            this.DrinksContainer.Size = new System.Drawing.Size(294, 167);
+            this.DrinksContainer.Size = new System.Drawing.Size(294, 64);
             this.DrinksContainer.TabIndex = 7;
             this.DrinksContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.DrinksContainer_Paint);
             // 
@@ -454,7 +454,7 @@ namespace Project___The_Taste
             // panel5
             // 
             this.panel5.Controls.Add(this.guna2Button4);
-            this.panel5.Location = new System.Drawing.Point(5, 2);
+            this.panel5.Location = new System.Drawing.Point(5, 244);
             this.panel5.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(294, 66);
@@ -485,7 +485,7 @@ namespace Project___The_Taste
             // panel4
             // 
             this.panel4.Controls.Add(this.guna2Button3);
-            this.panel4.Location = new System.Drawing.Point(5, 72);
+            this.panel4.Location = new System.Drawing.Point(5, 314);
             this.panel4.Margin = new System.Windows.Forms.Padding(5, 2, 5, 2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(294, 66);

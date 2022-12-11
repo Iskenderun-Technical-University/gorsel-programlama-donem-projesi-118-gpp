@@ -29,7 +29,7 @@ namespace Project___The_Taste
         static string[] Hamburger = { };
         static string[] drinksCold = { "Orange juice", "Sprite", "Coca cola", "Pepsi", "Chocolate Milkshake", "Coffee Milkshake","Fanta", "Strawberry juice",
         "Sparkling Mineral\nWater","Ayran","Water"};
-        static string[] drinksHot = { };
+        static string[] drinksHot = { "Mint Tea", "Black Tea", "Hot Chocolate", "coffee", "Caramel Latte", "Homemade Mocha", "Hot Lemon", "Masala Chai" };
         static string[] APPETIZER = { };
         static string[] DESSERTS = { };
 
@@ -309,7 +309,6 @@ namespace Project___The_Taste
             wedget8.Ch.Text = drinksCold[7];
             wedget9.Ch.Text = drinksCold[8];
             wedget10.Ch.Text = drinksCold[9];
-            wedget11.Ch.Text = drinksCold[10];
 
 
         }
@@ -335,6 +334,15 @@ namespace Project___The_Taste
             wedget14.Visible = false;
             wedget15.Visible = false;
             wedget16.Visible = false;
+
+            wedget1.Ch.Text = drinksHot[0];
+            wedget2.Ch.Text = drinksHot[1];
+            wedget3.Ch.Text = drinksHot[2];
+            wedget4.Ch.Text = drinksHot[3];
+            wedget5.Ch.Text = drinksHot[4];
+            wedget6.Ch.Text = drinksHot[5];
+            wedget7.Ch.Text = drinksHot[6];
+            wedget8.Ch.Text = drinksHot[7];
         }
     }
 }
