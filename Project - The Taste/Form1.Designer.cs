@@ -30,6 +30,10 @@ namespace Project___The_Taste
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -63,6 +67,17 @@ namespace Project___The_Taste
             this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.ITEM = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.QTY = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.COST = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.currentOrder = new System.Windows.Forms.Label();
             this.chackenPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.wedget1 = new Project___The_Taste.components.wedget();
             this.wedget2 = new Project___The_Taste.components.wedget();
@@ -98,6 +113,9 @@ namespace Project___The_Taste
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.guna2ShadowPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            this.guna2CustomGradientPanel1.SuspendLayout();
             this.chackenPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -112,10 +130,10 @@ namespace Project___The_Taste
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.Location = new System.Drawing.Point(0, 0);
             this.sidebar.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.sidebar.MaximumSize = new System.Drawing.Size(254, 999);
-            this.sidebar.MinimumSize = new System.Drawing.Size(80, 999);
+            this.sidebar.MaximumSize = new System.Drawing.Size(218, 812);
+            this.sidebar.MinimumSize = new System.Drawing.Size(68, 812);
             this.sidebar.Name = "sidebar";
-            this.sidebar.Size = new System.Drawing.Size(243, 999);
+            this.sidebar.Size = new System.Drawing.Size(208, 812);
             this.sidebar.TabIndex = 3;
             this.sidebar.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
@@ -127,7 +145,7 @@ namespace Project___The_Taste
             this.panel2.Location = new System.Drawing.Point(4, 2);
             this.panel2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(260, 100);
+            this.panel2.Size = new System.Drawing.Size(223, 81);
             this.panel2.TabIndex = 1;
             // 
             // label1
@@ -135,10 +153,10 @@ namespace Project___The_Taste
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(74, 47);
+            this.label1.Location = new System.Drawing.Point(64, 38);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 25);
+            this.label1.Size = new System.Drawing.Size(56, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "MENU";
             // 
@@ -146,10 +164,10 @@ namespace Project___The_Taste
             // 
             this.menuButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.menuButton.Image = global::Project___The_Taste.Properties.Resources.ليست_ابيض;
-            this.menuButton.Location = new System.Drawing.Point(18, 33);
+            this.menuButton.Location = new System.Drawing.Point(16, 27);
             this.menuButton.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.menuButton.Name = "menuButton";
-            this.menuButton.Size = new System.Drawing.Size(30, 39);
+            this.menuButton.Size = new System.Drawing.Size(26, 32);
             this.menuButton.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.menuButton.TabIndex = 0;
             this.menuButton.TabStop = false;
@@ -163,22 +181,22 @@ namespace Project___The_Taste
             this.MealsContainer.Controls.Add(this.panel7);
             this.MealsContainer.Controls.Add(this.panel8);
             this.MealsContainer.Controls.Add(this.panel10);
-            this.MealsContainer.Location = new System.Drawing.Point(4, 106);
+            this.MealsContainer.Location = new System.Drawing.Point(4, 87);
             this.MealsContainer.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.MealsContainer.MaximumSize = new System.Drawing.Size(251, 256);
-            this.MealsContainer.MinimumSize = new System.Drawing.Size(251, 66);
+            this.MealsContainer.MaximumSize = new System.Drawing.Size(215, 208);
+            this.MealsContainer.MinimumSize = new System.Drawing.Size(215, 54);
             this.MealsContainer.Name = "MealsContainer";
-            this.MealsContainer.Size = new System.Drawing.Size(251, 66);
+            this.MealsContainer.Size = new System.Drawing.Size(215, 54);
             this.MealsContainer.TabIndex = 6;
             this.MealsContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.MealsContainer_Paint);
             // 
             // panel9
             // 
             this.panel9.Controls.Add(this.guna2Button7);
-            this.panel9.Location = new System.Drawing.Point(12, 160);
+            this.panel9.Location = new System.Drawing.Point(10, 130);
             this.panel9.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(227, 43);
+            this.panel9.Size = new System.Drawing.Size(194, 35);
             this.panel9.TabIndex = 3;
             // 
             // guna2Button7
@@ -195,10 +213,10 @@ namespace Project___The_Taste
             this.guna2Button7.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button7.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button7.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button7.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button7.Location = new System.Drawing.Point(-5, -16);
             this.guna2Button7.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(262, 85);
+            this.guna2Button7.Size = new System.Drawing.Size(224, 69);
             this.guna2Button7.TabIndex = 4;
             this.guna2Button7.Text = "         Fish";
             this.guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -211,7 +229,7 @@ namespace Project___The_Taste
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(257, 66);
+            this.panel1.Size = new System.Drawing.Size(220, 54);
             this.panel1.TabIndex = 0;
             // 
             // ButtonMeals
@@ -228,10 +246,10 @@ namespace Project___The_Taste
             this.ButtonMeals.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.ButtonMeals.ImageOffset = new System.Drawing.Point(20, 0);
             this.ButtonMeals.ImageSize = new System.Drawing.Size(25, 25);
-            this.ButtonMeals.Location = new System.Drawing.Point(-6, -18);
+            this.ButtonMeals.Location = new System.Drawing.Point(-5, -15);
             this.ButtonMeals.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.ButtonMeals.Name = "ButtonMeals";
-            this.ButtonMeals.Size = new System.Drawing.Size(262, 85);
+            this.ButtonMeals.Size = new System.Drawing.Size(224, 69);
             this.ButtonMeals.TabIndex = 4;
             this.ButtonMeals.Text = "         MEALS";
             this.ButtonMeals.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -241,10 +259,10 @@ namespace Project___The_Taste
             // panel7
             // 
             this.panel7.Controls.Add(this.guna2Button1);
-            this.panel7.Location = new System.Drawing.Point(12, 66);
+            this.panel7.Location = new System.Drawing.Point(10, 54);
             this.panel7.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(227, 43);
+            this.panel7.Size = new System.Drawing.Size(194, 35);
             this.panel7.TabIndex = 1;
             // 
             // guna2Button1
@@ -261,10 +279,10 @@ namespace Project___The_Taste
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button1.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button1.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button1.Location = new System.Drawing.Point(-5, -16);
             this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(262, 85);
+            this.guna2Button1.Size = new System.Drawing.Size(224, 69);
             this.guna2Button1.TabIndex = 4;
             this.guna2Button1.Text = "        Chicken";
             this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -274,10 +292,10 @@ namespace Project___The_Taste
             // panel8
             // 
             this.panel8.Controls.Add(this.guna2Button6);
-            this.panel8.Location = new System.Drawing.Point(12, 113);
+            this.panel8.Location = new System.Drawing.Point(10, 92);
             this.panel8.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(227, 43);
+            this.panel8.Size = new System.Drawing.Size(194, 35);
             this.panel8.TabIndex = 2;
             // 
             // guna2Button6
@@ -294,10 +312,10 @@ namespace Project___The_Taste
             this.guna2Button6.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button6.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button6.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button6.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button6.Location = new System.Drawing.Point(-5, -16);
             this.guna2Button6.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(262, 85);
+            this.guna2Button6.Size = new System.Drawing.Size(224, 69);
             this.guna2Button6.TabIndex = 4;
             this.guna2Button6.Text = "         Meat";
             this.guna2Button6.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -307,10 +325,10 @@ namespace Project___The_Taste
             // panel10
             // 
             this.panel10.Controls.Add(this.guna2Button8);
-            this.panel10.Location = new System.Drawing.Point(12, 203);
+            this.panel10.Location = new System.Drawing.Point(10, 165);
             this.panel10.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(227, 43);
+            this.panel10.Size = new System.Drawing.Size(194, 35);
             this.panel10.TabIndex = 4;
             // 
             // guna2Button8
@@ -327,10 +345,10 @@ namespace Project___The_Taste
             this.guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button8.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button8.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button8.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button8.Location = new System.Drawing.Point(-5, -16);
             this.guna2Button8.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(262, 85);
+            this.guna2Button8.Size = new System.Drawing.Size(224, 69);
             this.guna2Button8.TabIndex = 4;
             this.guna2Button8.Text = "         Hamburger";
             this.guna2Button8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -342,12 +360,12 @@ namespace Project___The_Taste
             this.DrinksContainer.Controls.Add(this.panel3);
             this.DrinksContainer.Controls.Add(this.panel14);
             this.DrinksContainer.Controls.Add(this.panel13);
-            this.DrinksContainer.Location = new System.Drawing.Point(4, 176);
+            this.DrinksContainer.Location = new System.Drawing.Point(4, 145);
             this.DrinksContainer.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.DrinksContainer.MaximumSize = new System.Drawing.Size(257, 167);
-            this.DrinksContainer.MinimumSize = new System.Drawing.Size(257, 64);
+            this.DrinksContainer.MaximumSize = new System.Drawing.Size(220, 136);
+            this.DrinksContainer.MinimumSize = new System.Drawing.Size(220, 52);
             this.DrinksContainer.Name = "DrinksContainer";
-            this.DrinksContainer.Size = new System.Drawing.Size(257, 64);
+            this.DrinksContainer.Size = new System.Drawing.Size(220, 52);
             this.DrinksContainer.TabIndex = 7;
             this.DrinksContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.DrinksContainer_Paint);
             // 
@@ -357,7 +375,7 @@ namespace Project___The_Taste
             this.panel3.Location = new System.Drawing.Point(-1, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(257, 70);
+            this.panel3.Size = new System.Drawing.Size(220, 57);
             this.panel3.TabIndex = 2;
             // 
             // DrinksButton
@@ -374,11 +392,11 @@ namespace Project___The_Taste
             this.DrinksButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.DrinksButton.ImageOffset = new System.Drawing.Point(20, 0);
             this.DrinksButton.ImageSize = new System.Drawing.Size(35, 35);
-            this.DrinksButton.Location = new System.Drawing.Point(-10, -16);
+            this.DrinksButton.Location = new System.Drawing.Point(-8, -13);
             this.DrinksButton.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.DrinksButton.Name = "DrinksButton";
             this.DrinksButton.PressedColor = System.Drawing.Color.White;
-            this.DrinksButton.Size = new System.Drawing.Size(270, 85);
+            this.DrinksButton.Size = new System.Drawing.Size(232, 69);
             this.DrinksButton.TabIndex = 4;
             this.DrinksButton.Text = "        DRINKS";
             this.DrinksButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -388,10 +406,10 @@ namespace Project___The_Taste
             // panel14
             // 
             this.panel14.Controls.Add(this.guna2Button11);
-            this.panel14.Location = new System.Drawing.Point(15, 69);
+            this.panel14.Location = new System.Drawing.Point(13, 56);
             this.panel14.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(227, 43);
+            this.panel14.Size = new System.Drawing.Size(194, 35);
             this.panel14.TabIndex = 1;
             // 
             // guna2Button11
@@ -408,10 +426,10 @@ namespace Project___The_Taste
             this.guna2Button11.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button11.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button11.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button11.Location = new System.Drawing.Point(-6, 3);
+            this.guna2Button11.Location = new System.Drawing.Point(-5, 2);
             this.guna2Button11.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button11.Name = "guna2Button11";
-            this.guna2Button11.Size = new System.Drawing.Size(262, 46);
+            this.guna2Button11.Size = new System.Drawing.Size(224, 37);
             this.guna2Button11.TabIndex = 4;
             this.guna2Button11.Text = "        Cold";
             this.guna2Button11.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -421,10 +439,10 @@ namespace Project___The_Taste
             // panel13
             // 
             this.panel13.Controls.Add(this.guna2Button10);
-            this.panel13.Location = new System.Drawing.Point(15, 114);
+            this.panel13.Location = new System.Drawing.Point(13, 93);
             this.panel13.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(227, 43);
+            this.panel13.Size = new System.Drawing.Size(194, 35);
             this.panel13.TabIndex = 2;
             // 
             // guna2Button10
@@ -441,10 +459,10 @@ namespace Project___The_Taste
             this.guna2Button10.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button10.ImageOffset = new System.Drawing.Point(60, -5);
             this.guna2Button10.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button10.Location = new System.Drawing.Point(-6, -1);
+            this.guna2Button10.Location = new System.Drawing.Point(-5, -1);
             this.guna2Button10.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.Size = new System.Drawing.Size(262, 47);
+            this.guna2Button10.Size = new System.Drawing.Size(224, 38);
             this.guna2Button10.TabIndex = 4;
             this.guna2Button10.Text = "         Hot";
             this.guna2Button10.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -454,10 +472,10 @@ namespace Project___The_Taste
             // panel5
             // 
             this.panel5.Controls.Add(this.guna2Button4);
-            this.panel5.Location = new System.Drawing.Point(4, 244);
+            this.panel5.Location = new System.Drawing.Point(4, 201);
             this.panel5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(257, 66);
+            this.panel5.Size = new System.Drawing.Size(220, 54);
             this.panel5.TabIndex = 4;
             // 
             // guna2Button4
@@ -473,10 +491,10 @@ namespace Project___The_Taste
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button4.ImageOffset = new System.Drawing.Point(20, 0);
             this.guna2Button4.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button4.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button4.Location = new System.Drawing.Point(-5, -16);
             this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(257, 85);
+            this.guna2Button4.Size = new System.Drawing.Size(220, 69);
             this.guna2Button4.TabIndex = 4;
             this.guna2Button4.Text = "         DESSERTS";
             this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -485,10 +503,10 @@ namespace Project___The_Taste
             // panel4
             // 
             this.panel4.Controls.Add(this.guna2Button3);
-            this.panel4.Location = new System.Drawing.Point(4, 314);
+            this.panel4.Location = new System.Drawing.Point(4, 259);
             this.panel4.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(257, 66);
+            this.panel4.Size = new System.Drawing.Size(220, 54);
             this.panel4.TabIndex = 3;
             // 
             // guna2Button3
@@ -504,10 +522,10 @@ namespace Project___The_Taste
             this.guna2Button3.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.ImageOffset = new System.Drawing.Point(20, 0);
             this.guna2Button3.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button3.Location = new System.Drawing.Point(-6, -20);
+            this.guna2Button3.Location = new System.Drawing.Point(-5, -16);
             this.guna2Button3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(261, 85);
+            this.guna2Button3.Size = new System.Drawing.Size(224, 69);
             this.guna2Button3.TabIndex = 4;
             this.guna2Button3.Text = "         APPETIZER";
             this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -535,10 +553,10 @@ namespace Project___The_Taste
             this.guna2Panel1.Controls.Add(this.guna2PictureBox2);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel1.Location = new System.Drawing.Point(243, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel1.Location = new System.Drawing.Point(208, 0);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1007, 70);
+            this.guna2Panel1.Size = new System.Drawing.Size(864, 57);
             this.guna2Panel1.TabIndex = 5;
             // 
             // guna2Separator1
@@ -546,10 +564,10 @@ namespace Project___The_Taste
             this.guna2Separator1.BackColor = System.Drawing.Color.Transparent;
             this.guna2Separator1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.guna2Separator1.FillThickness = 2;
-            this.guna2Separator1.Location = new System.Drawing.Point(0, 58);
+            this.guna2Separator1.Location = new System.Drawing.Point(0, 47);
             this.guna2Separator1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2Separator1.Name = "guna2Separator1";
-            this.guna2Separator1.Size = new System.Drawing.Size(1007, 12);
+            this.guna2Separator1.Size = new System.Drawing.Size(864, 10);
             this.guna2Separator1.TabIndex = 5;
             this.guna2Separator1.UseTransparentBackground = true;
             this.guna2Separator1.Click += new System.EventHandler(this.guna2Separator1_Click);
@@ -560,10 +578,10 @@ namespace Project___The_Taste
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.Image = global::Project___The_Taste.Properties.Resources.THE_NAME_pu;
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(92, 1);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(79, 1);
             this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(147, 62);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(126, 50);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 4;
             this.guna2PictureBox2.TabStop = false;
@@ -573,14 +591,184 @@ namespace Project___The_Taste
             // 
             this.guna2PictureBox1.Image = global::Project___The_Taste.Properties.Resources.the_hat_pu;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(4, -21);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(4, -17);
             this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(91, 97);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(78, 79);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 3;
             this.guna2PictureBox1.TabStop = false;
             this.guna2PictureBox1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
+            // 
+            // guna2ShadowPanel1
+            // 
+            this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel1.Controls.Add(this.guna2DataGridView1);
+            this.guna2ShadowPanel1.Controls.Add(this.guna2CustomGradientPanel1);
+            this.guna2ShadowPanel1.Controls.Add(this.currentOrder);
+            this.guna2ShadowPanel1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(692, 57);
+            this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
+            this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(380, 626);
+            this.guna2ShadowPanel1.TabIndex = 6;
+            // 
+            // guna2DataGridView1
+            // 
+            this.guna2DataGridView1.AllowUserToResizeRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(170)))), ((int)(((byte)(187)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.guna2DataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.guna2DataGridView1.ColumnHeadersHeight = 49;
+            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.guna2DataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ITEM,
+            this.QTY,
+            this.COST});
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(138)))), ((int)(((byte)(162)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
+            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView1.Location = new System.Drawing.Point(7, 63);
+            this.guna2DataGridView1.Name = "guna2DataGridView1";
+            this.guna2DataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(138)))), ((int)(((byte)(162)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(138)))), ((int)(((byte)(162)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.guna2DataGridView1.RowHeadersVisible = false;
+            this.guna2DataGridView1.RowTemplate.Height = 32;
+            this.guna2DataGridView1.Size = new System.Drawing.Size(367, 361);
+            this.guna2DataGridView1.TabIndex = 3;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(170)))), ((int)(((byte)(187)))));
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.Silver;
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 49;
+            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(138)))), ((int)(((byte)(162)))));
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 32;
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            // 
+            // ITEM
+            // 
+            this.ITEM.HeaderText = "ITEM";
+            this.ITEM.Name = "ITEM";
+            // 
+            // QTY
+            // 
+            this.QTY.HeaderText = "QTY";
+            this.QTY.Name = "QTY";
+            // 
+            // COST
+            // 
+            this.COST.HeaderText = "COST";
+            this.COST.Name = "COST";
+            // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2CustomGradientPanel1.Controls.Add(this.label3);
+            this.guna2CustomGradientPanel1.Controls.Add(this.label2);
+            this.guna2CustomGradientPanel1.Controls.Add(this.button2);
+            this.guna2CustomGradientPanel1.Controls.Add(this.button1);
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(7, 445);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(370, 178);
+            this.guna2CustomGradientPanel1.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(216, 48);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(123, 47);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "30,15$";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(4, 3);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(124, 31);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Total Price:";
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(23)))), ((int)(((byte)(71)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(231, 124);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(114, 51);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "DELETE ALL";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(27)))), ((int)(((byte)(55)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(5, 124);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(220, 51);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "PAY";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // currentOrder
+            // 
+            this.currentOrder.AutoSize = true;
+            this.currentOrder.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.currentOrder.Location = new System.Drawing.Point(7, 5);
+            this.currentOrder.Name = "currentOrder";
+            this.currentOrder.Size = new System.Drawing.Size(141, 30);
+            this.currentOrder.TabIndex = 0;
+            this.currentOrder.Text = "Current Order";
             // 
             // chackenPanel
             // 
@@ -602,149 +790,166 @@ namespace Project___The_Taste
             this.chackenPanel.Controls.Add(this.wedget15);
             this.chackenPanel.Controls.Add(this.wedget16);
             this.chackenPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.chackenPanel.Location = new System.Drawing.Point(243, -45);
+            this.chackenPanel.Location = new System.Drawing.Point(208, -50);
             this.chackenPanel.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.chackenPanel.Name = "chackenPanel";
-            this.chackenPanel.Size = new System.Drawing.Size(1007, 891);
-            this.chackenPanel.TabIndex = 4;
+            this.chackenPanel.Size = new System.Drawing.Size(484, 733);
+            this.chackenPanel.TabIndex = 7;
             // 
             // wedget1
             // 
             this.wedget1.BackColor = System.Drawing.Color.White;
-            this.wedget1.Location = new System.Drawing.Point(3, 3);
+            this.wedget1.Location = new System.Drawing.Point(2, 2);
+            this.wedget1.Margin = new System.Windows.Forms.Padding(2);
             this.wedget1.Name = "wedget1";
-            this.wedget1.Size = new System.Drawing.Size(395, 130);
+            this.wedget1.Size = new System.Drawing.Size(338, 106);
             this.wedget1.TabIndex = 0;
             // 
             // wedget2
             // 
             this.wedget2.BackColor = System.Drawing.Color.White;
-            this.wedget2.Location = new System.Drawing.Point(404, 3);
+            this.wedget2.Location = new System.Drawing.Point(2, 112);
+            this.wedget2.Margin = new System.Windows.Forms.Padding(2);
             this.wedget2.Name = "wedget2";
-            this.wedget2.Size = new System.Drawing.Size(395, 130);
+            this.wedget2.Size = new System.Drawing.Size(338, 106);
             this.wedget2.TabIndex = 1;
             // 
             // wedget3
             // 
             this.wedget3.BackColor = System.Drawing.Color.White;
-            this.wedget3.Location = new System.Drawing.Point(3, 139);
+            this.wedget3.Location = new System.Drawing.Point(2, 222);
+            this.wedget3.Margin = new System.Windows.Forms.Padding(2);
             this.wedget3.Name = "wedget3";
-            this.wedget3.Size = new System.Drawing.Size(395, 130);
+            this.wedget3.Size = new System.Drawing.Size(338, 106);
             this.wedget3.TabIndex = 2;
             // 
             // wedget4
             // 
             this.wedget4.BackColor = System.Drawing.Color.White;
-            this.wedget4.Location = new System.Drawing.Point(404, 139);
+            this.wedget4.Location = new System.Drawing.Point(2, 332);
+            this.wedget4.Margin = new System.Windows.Forms.Padding(2);
             this.wedget4.Name = "wedget4";
-            this.wedget4.Size = new System.Drawing.Size(395, 130);
+            this.wedget4.Size = new System.Drawing.Size(338, 106);
             this.wedget4.TabIndex = 3;
             // 
             // wedget5
             // 
             this.wedget5.BackColor = System.Drawing.Color.White;
-            this.wedget5.Location = new System.Drawing.Point(3, 275);
+            this.wedget5.Location = new System.Drawing.Point(2, 442);
+            this.wedget5.Margin = new System.Windows.Forms.Padding(2);
             this.wedget5.Name = "wedget5";
-            this.wedget5.Size = new System.Drawing.Size(395, 130);
+            this.wedget5.Size = new System.Drawing.Size(338, 106);
             this.wedget5.TabIndex = 4;
             // 
             // wedget6
             // 
             this.wedget6.BackColor = System.Drawing.Color.White;
-            this.wedget6.Location = new System.Drawing.Point(404, 275);
+            this.wedget6.Location = new System.Drawing.Point(2, 552);
+            this.wedget6.Margin = new System.Windows.Forms.Padding(2);
             this.wedget6.Name = "wedget6";
-            this.wedget6.Size = new System.Drawing.Size(395, 130);
+            this.wedget6.Size = new System.Drawing.Size(338, 106);
             this.wedget6.TabIndex = 5;
             // 
             // wedget7
             // 
             this.wedget7.BackColor = System.Drawing.Color.White;
-            this.wedget7.Location = new System.Drawing.Point(3, 411);
+            this.wedget7.Location = new System.Drawing.Point(2, 662);
+            this.wedget7.Margin = new System.Windows.Forms.Padding(2);
             this.wedget7.Name = "wedget7";
-            this.wedget7.Size = new System.Drawing.Size(395, 130);
+            this.wedget7.Size = new System.Drawing.Size(338, 106);
             this.wedget7.TabIndex = 6;
             // 
             // wedget8
             // 
             this.wedget8.BackColor = System.Drawing.Color.White;
-            this.wedget8.Location = new System.Drawing.Point(404, 411);
+            this.wedget8.Location = new System.Drawing.Point(2, 772);
+            this.wedget8.Margin = new System.Windows.Forms.Padding(2);
             this.wedget8.Name = "wedget8";
-            this.wedget8.Size = new System.Drawing.Size(395, 130);
+            this.wedget8.Size = new System.Drawing.Size(338, 106);
             this.wedget8.TabIndex = 7;
             // 
             // wedget9
             // 
             this.wedget9.BackColor = System.Drawing.Color.White;
-            this.wedget9.Location = new System.Drawing.Point(3, 547);
+            this.wedget9.Location = new System.Drawing.Point(2, 882);
+            this.wedget9.Margin = new System.Windows.Forms.Padding(2);
             this.wedget9.Name = "wedget9";
-            this.wedget9.Size = new System.Drawing.Size(395, 130);
+            this.wedget9.Size = new System.Drawing.Size(338, 106);
             this.wedget9.TabIndex = 8;
             // 
             // wedget10
             // 
             this.wedget10.BackColor = System.Drawing.Color.White;
-            this.wedget10.Location = new System.Drawing.Point(404, 547);
+            this.wedget10.Location = new System.Drawing.Point(2, 992);
+            this.wedget10.Margin = new System.Windows.Forms.Padding(2);
             this.wedget10.Name = "wedget10";
-            this.wedget10.Size = new System.Drawing.Size(395, 130);
+            this.wedget10.Size = new System.Drawing.Size(338, 106);
             this.wedget10.TabIndex = 9;
             // 
             // wedget11
             // 
             this.wedget11.BackColor = System.Drawing.Color.White;
-            this.wedget11.Location = new System.Drawing.Point(3, 683);
+            this.wedget11.Location = new System.Drawing.Point(2, 1102);
+            this.wedget11.Margin = new System.Windows.Forms.Padding(2);
             this.wedget11.Name = "wedget11";
-            this.wedget11.Size = new System.Drawing.Size(395, 130);
+            this.wedget11.Size = new System.Drawing.Size(338, 106);
             this.wedget11.TabIndex = 10;
             // 
             // wedget12
             // 
             this.wedget12.BackColor = System.Drawing.Color.White;
-            this.wedget12.Location = new System.Drawing.Point(404, 683);
+            this.wedget12.Location = new System.Drawing.Point(2, 1212);
+            this.wedget12.Margin = new System.Windows.Forms.Padding(2);
             this.wedget12.Name = "wedget12";
-            this.wedget12.Size = new System.Drawing.Size(395, 130);
+            this.wedget12.Size = new System.Drawing.Size(338, 106);
             this.wedget12.TabIndex = 11;
             // 
             // wedget13
             // 
             this.wedget13.BackColor = System.Drawing.Color.White;
-            this.wedget13.Location = new System.Drawing.Point(3, 819);
+            this.wedget13.Location = new System.Drawing.Point(2, 1322);
+            this.wedget13.Margin = new System.Windows.Forms.Padding(2);
             this.wedget13.Name = "wedget13";
-            this.wedget13.Size = new System.Drawing.Size(395, 130);
+            this.wedget13.Size = new System.Drawing.Size(338, 106);
             this.wedget13.TabIndex = 12;
             // 
             // wedget14
             // 
             this.wedget14.BackColor = System.Drawing.Color.White;
-            this.wedget14.Location = new System.Drawing.Point(404, 819);
+            this.wedget14.Location = new System.Drawing.Point(2, 1432);
+            this.wedget14.Margin = new System.Windows.Forms.Padding(2);
             this.wedget14.Name = "wedget14";
-            this.wedget14.Size = new System.Drawing.Size(395, 130);
+            this.wedget14.Size = new System.Drawing.Size(338, 106);
             this.wedget14.TabIndex = 13;
             // 
             // wedget15
             // 
             this.wedget15.BackColor = System.Drawing.Color.White;
-            this.wedget15.Location = new System.Drawing.Point(3, 955);
+            this.wedget15.Location = new System.Drawing.Point(2, 1542);
+            this.wedget15.Margin = new System.Windows.Forms.Padding(2);
             this.wedget15.Name = "wedget15";
-            this.wedget15.Size = new System.Drawing.Size(395, 130);
+            this.wedget15.Size = new System.Drawing.Size(338, 106);
             this.wedget15.TabIndex = 14;
             // 
             // wedget16
             // 
             this.wedget16.BackColor = System.Drawing.Color.White;
-            this.wedget16.Location = new System.Drawing.Point(404, 955);
+            this.wedget16.Location = new System.Drawing.Point(2, 1652);
+            this.wedget16.Margin = new System.Windows.Forms.Padding(2);
             this.wedget16.Name = "wedget16";
-            this.wedget16.Size = new System.Drawing.Size(395, 130);
+            this.wedget16.Size = new System.Drawing.Size(338, 106);
             this.wedget16.TabIndex = 15;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1250, 846);
-            this.Controls.Add(this.guna2Panel1);
+            this.ClientSize = new System.Drawing.Size(1072, 683);
             this.Controls.Add(this.chackenPanel);
+            this.Controls.Add(this.guna2ShadowPanel1);
+            this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.sidebar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
@@ -772,6 +977,11 @@ namespace Project___The_Taste
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            this.guna2ShadowPanel1.ResumeLayout(false);
+            this.guna2ShadowPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            this.guna2CustomGradientPanel1.ResumeLayout(false);
+            this.guna2CustomGradientPanel1.PerformLayout();
             this.chackenPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -811,6 +1021,7 @@ namespace Project___The_Taste
         private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
         private System.Windows.Forms.FlowLayoutPanel chackenPanel;
         private components.wedget wedget1;
         private components.wedget wedget2;
@@ -828,6 +1039,16 @@ namespace Project___The_Taste
         private components.wedget wedget14;
         private components.wedget wedget15;
         private components.wedget wedget16;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label currentOrder;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ITEM;
+        private System.Windows.Forms.DataGridViewTextBoxColumn QTY;
+        private System.Windows.Forms.DataGridViewTextBoxColumn COST;
+        public Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
     }
 }
 

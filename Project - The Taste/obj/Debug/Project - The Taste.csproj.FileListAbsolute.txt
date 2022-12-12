@@ -132,3 +132,4 @@ C:\Users\afraa\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project
 C:\Users\afraa\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project - The Taste.csproj.CopyComplete
 C:\Users\afraa\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project - The Taste.exe
 C:\Users\afraa\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project - The Taste.pdb
+C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project___The_Taste.LoadingForm.resources

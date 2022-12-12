@@ -32,7 +32,7 @@ namespace Project___The_Taste
         static string[] drinksHot = { "Mint Tea", "Black Tea", "Hot Chocolate", "coffee", "Caramel Latte", "Homemade Mocha", "Hot Lemon", "Masala Chai" };
         static string[] APPETIZER = { "Chicken Fingers", "Çiğ Köfte", "Dakos", "Gravlax", "Haydari Blog Hero", "Kabak Mücveri", "Pajeon", "Perkedel", "Petit Four", "Pisto", "Rabas" };
         static string[] DESSERTS = { };
-
+        public static Form1 form = new Form1();
 
         public Form1()
         {
@@ -41,7 +41,6 @@ namespace Project___The_Taste
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
