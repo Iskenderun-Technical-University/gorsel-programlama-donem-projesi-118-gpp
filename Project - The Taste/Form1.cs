@@ -30,7 +30,7 @@ namespace Project___The_Taste
         static string[] drinksCold = { "Orange juice", "Sprite", "Coca cola", "Pepsi", "Chocolate Milkshake", "Coffee Milkshake","Fanta", "Strawberry juice",
         "Sparkling Mineral\nWater","Ayran","Water"};
         static string[] drinksHot = { "Mint Tea", "Black Tea", "Hot Chocolate", "coffee", "Caramel Latte", "Homemade Mocha", "Hot Lemon", "Masala Chai" };
-        static string[] APPETIZER = { };
+        static string[] APPETIZER = { "Chicken Fingers", "Çiğ Köfte", "Dakos", "Gravlax", "Haydari Blog Hero", "Kabak Mücveri", "Pajeon", "Perkedel", "Petit Four", "Pisto", "Rabas" };
         static string[] DESSERTS = { };
 
 
@@ -394,6 +394,17 @@ namespace Project___The_Taste
             wedget15.Visible = false;
             wedget16.Visible = false;
 
+            wedget1.Ch.Text = APPETIZER[0];
+            wedget2.Ch.Text = APPETIZER[1];
+            wedget3.Ch.Text = APPETIZER[2];
+            wedget4.Ch.Text = APPETIZER[3];
+            wedget5.Ch.Text = APPETIZER[4];
+            wedget6.Ch.Text = APPETIZER[5];
+            wedget7.Ch.Text = APPETIZER[6];
+            wedget8.Ch.Text = APPETIZER[7];
+            wedget9.Ch.Text = APPETIZER[8];
+            wedget10.Ch.Text = APPETIZER[9];
+            wedget11.Ch.Text = APPETIZER[10];
         }
     }
 }
