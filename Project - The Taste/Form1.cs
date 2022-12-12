@@ -240,7 +240,16 @@ namespace Project___The_Taste
             wedget15.Visible = false;
             wedget16.Visible = false;
 
-           
+            wedget1.Ch.Text = Meat[0];
+            wedget2.Ch.Text = Meat[1];
+            wedget3.Ch.Text = Meat[2];
+            wedget4.Ch.Text = Meat[3];
+            wedget5.Ch.Text = Meat[4];
+            wedget6.Ch.Text = Meat[5];
+            wedget7.Ch.Text = Meat[6];
+            wedget8.Ch.Text = Meat[7];
+            wedget9.Ch.Text = Meat[8];
+            wedget10.Ch.Text = Meat[9];
 
 
         }
