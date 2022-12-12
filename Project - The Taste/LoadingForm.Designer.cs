@@ -48,9 +48,10 @@ namespace Project___The_Taste
             // guna2ProgressBar1
             // 
             this.guna2ProgressBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2ProgressBar1.Location = new System.Drawing.Point(0, 348);
+            this.guna2ProgressBar1.Location = new System.Drawing.Point(0, 428);
+            this.guna2ProgressBar1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2ProgressBar1.Name = "guna2ProgressBar1";
-            this.guna2ProgressBar1.Size = new System.Drawing.Size(536, 30);
+            this.guna2ProgressBar1.Size = new System.Drawing.Size(715, 37);
             this.guna2ProgressBar1.TabIndex = 1;
             this.guna2ProgressBar1.Text = "guna2ProgressBar1";
             this.guna2ProgressBar1.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
@@ -62,36 +63,39 @@ namespace Project___The_Taste
             // 
             // guna2CustomGradientPanel1
             // 
-            this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.White;
-            this.guna2CustomGradientPanel1.BackgroundImage = global::Project___The_Taste.Properties.Resources.the_logo;
+            this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Silver;
             this.guna2CustomGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2PictureBox1);
             this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(536, 342);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(715, 421);
             this.guna2CustomGradientPanel1.TabIndex = 0;
             // 
             // guna2PictureBox1
             // 
-            this.guna2PictureBox1.Image = global::Project___The_Taste.Properties.Resources.the_logo;
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::Project___The_Taste.Properties.Resources.the_logo_pu;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(-6, 3);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(530, 339);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(702, 381);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 
             // LoadingForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(536, 378);
+            this.ClientSize = new System.Drawing.Size(715, 465);
             this.Controls.Add(this.guna2ProgressBar1);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "LoadingForm";
