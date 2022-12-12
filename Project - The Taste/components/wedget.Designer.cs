@@ -163,6 +163,17 @@ namespace Project___The_Taste.components
             this.List1.Images.SetKeyName(53, "Şiş tavuk.jpg");
             this.List1.Images.SetKeyName(54, "steak-marinade-13.jpg");
             this.List1.Images.SetKeyName(55, "sweet_sour_meat_balls.jpg");
+            this.List1.Images.SetKeyName(56, "Chicken Fingers.jpg");
+            this.List1.Images.SetKeyName(57, "Çiğ köfte.jpg");
+            this.List1.Images.SetKeyName(58, "Dakos.jpeg");
+            this.List1.Images.SetKeyName(59, "Gravlax.jpg");
+            this.List1.Images.SetKeyName(60, "haydari-blog-hero.jpg");
+            this.List1.Images.SetKeyName(61, "Kabak mücveri.jpg");
+            this.List1.Images.SetKeyName(62, "Pajeon.jpg");
+            this.List1.Images.SetKeyName(63, "Perkedel.jpg");
+            this.List1.Images.SetKeyName(64, "Petit four.jpg");
+            this.List1.Images.SetKeyName(65, "Pisto.jpg");
+            this.List1.Images.SetKeyName(66, "Rabas.jpg");
             // 
             // wedget
             // 

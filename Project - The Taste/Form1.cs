@@ -190,6 +190,9 @@ namespace Project___The_Taste
             wedget14.guna2PictureBox1.Image = wedget14.List1.Images[35];
             wedget15.guna2PictureBox1.Image = wedget15.List1.Images[36];
             wedget16.guna2PictureBox1.Image = wedget16.List1.Images[37];
+
+            wedget9.Visible = true;
+            wedget10.Visible = true;
             wedget11.Visible = true;
             wedget12.Visible = true;
             wedget13.Visible = true;
@@ -223,6 +226,8 @@ namespace Project___The_Taste
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
+            //meatPanel.Visible=true;
+
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[46];
             wedget2.guna2PictureBox1.Image = wedget2.List1.Images[47];
             wedget3.guna2PictureBox1.Image = wedget3.List1.Images[48];
@@ -233,6 +238,9 @@ namespace Project___The_Taste
             wedget8.guna2PictureBox1.Image = wedget8.List1.Images[53];
             wedget9.guna2PictureBox1.Image = wedget9.List1.Images[54];
             wedget10.guna2PictureBox1.Image = wedget10.List1.Images[55];
+
+            wedget9.Visible = true;
+            wedget10.Visible = true;
             wedget11.Visible= false;
             wedget12.Visible = false;
             wedget13.Visible = false;
@@ -256,6 +264,8 @@ namespace Project___The_Taste
 
         private void guna2Button7_Click(object sender, EventArgs e)
         {
+            //fishPanel.Visible=true;
+
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[2];
             wedget2.guna2PictureBox1.Image = wedget2.List1.Images[3];
             wedget3.guna2PictureBox1.Image = wedget3.List1.Images[4];
@@ -266,8 +276,9 @@ namespace Project___The_Taste
             wedget8.guna2PictureBox1.Image = wedget8.List1.Images[9];
             wedget9.guna2PictureBox1.Image = wedget9.List1.Images[10];
             wedget10.guna2PictureBox1.Image = wedget10.List1.Images[11];
-            
 
+            wedget9.Visible = true;
+            wedget10.Visible = true;
             wedget11.Visible = true;
             wedget12.Visible = false;
             wedget13.Visible = false;
@@ -302,7 +313,9 @@ namespace Project___The_Taste
             wedget8.guna2PictureBox1.Image = wedget8.List1.Images[28];
             wedget9.guna2PictureBox1.Image = wedget9.List1.Images[29];
             wedget10.guna2PictureBox1.Image = wedget10.List1.Images[30];
-            
+
+            wedget9.Visible = true;
+            wedget10.Visible = true;
             wedget11.Visible = false;
             wedget12.Visible = false;
             wedget13.Visible = false;
@@ -354,6 +367,33 @@ namespace Project___The_Taste
             wedget6.Ch.Text = drinksHot[5];
             wedget7.Ch.Text = drinksHot[6];
             wedget8.Ch.Text = drinksHot[7];
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            //APPETIZERPanel.Visible=true;
+
+            wedget1.guna2PictureBox1.Image = wedget1.List1.Images[56];
+            wedget2.guna2PictureBox1.Image = wedget2.List1.Images[57];
+            wedget3.guna2PictureBox1.Image = wedget3.List1.Images[58];
+            wedget4.guna2PictureBox1.Image = wedget4.List1.Images[59];
+            wedget5.guna2PictureBox1.Image = wedget5.List1.Images[60];
+            wedget6.guna2PictureBox1.Image = wedget6.List1.Images[61];
+            wedget7.guna2PictureBox1.Image = wedget7.List1.Images[62];
+            wedget8.guna2PictureBox1.Image = wedget8.List1.Images[63];
+            wedget9.guna2PictureBox1.Image = wedget9.List1.Images[64];
+            wedget10.guna2PictureBox1.Image = wedget10.List1.Images[65];
+            wedget11.guna2PictureBox1.Image = wedget11.List1.Images[66];
+
+            wedget9.Visible = true;
+            wedget10.Visible = true;
+            wedget11.Visible = true;
+            wedget12.Visible = false;
+            wedget13.Visible = false;
+            wedget14.Visible = false;
+            wedget15.Visible = false;
+            wedget16.Visible = false;
+
         }
     }
 }

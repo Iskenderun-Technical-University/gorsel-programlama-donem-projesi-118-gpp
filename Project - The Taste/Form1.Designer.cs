@@ -512,6 +512,7 @@ namespace Project___The_Taste
             this.guna2Button3.Text = "         APPETIZER";
             this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.TextOffset = new System.Drawing.Point(-10, 2);
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // Sidebartimer
             // 
