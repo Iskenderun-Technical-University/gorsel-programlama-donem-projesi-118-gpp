@@ -23,7 +23,7 @@ namespace Project___The_Taste
         "Chipotle Chicken\nTaquitos", "Air Fryer Chicken\nBreast","Air Fryer Parmesan\nCrusted Chicken with\nMayo","Blackened Chicken\nAlfredo",
         "Butter Chicken","Chicken and Avocado\nQuesadillas","Chicken Fajitas","Ayam geprek","ayam taliwang bakar\nteflon yscooking",
         "Chicken Afritada","Arroz con Pollo","saftiges backhendl","Barbecued Chicken"};
-        static string[] Meat={ };
+        static string[] Meat = { "Beef Kaldereta", "Espetada", "Leberkäse", "Meat Pie", "Meatball Sub Recipe", "Paella Valenciana", "Pit Beef", "Şiş Tavuk", "Steak Marinade", "Sweet Sour Meat Balls"};
         static string[] fish= { "Masala Fried Pomfret", "Thai Fish Curry", "Gorton's Seafood", "Kerala Fish Fry", "Thai Steamed Fish with\nLime and Garlic", "Indian Omelet Masala\nEgg Curry",
         "Sticky Buttery Honey\nGarlic Shrimp","Baked Salmon with Garlic\nButter","Malabar Style Chemmeen\nCurry","Indian Style Fish and\nChips"};
         static string[] Hamburger = { };
@@ -223,22 +223,24 @@ namespace Project___The_Taste
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
-            wedget1.guna2PictureBox1.Image = wedget1.List1.Images[1];
-            wedget2.guna2PictureBox1.Image = wedget2.List1.Images[1];
-            wedget3.guna2PictureBox1.Image = wedget3.List1.Images[1];
-            wedget4.guna2PictureBox1.Image = wedget4.List1.Images[1];
-            wedget5.guna2PictureBox1.Image = wedget5.List1.Images[1];
-            wedget6.guna2PictureBox1.Image = wedget6.List1.Images[1];
-            wedget7.guna2PictureBox1.Image = wedget7.List1.Images[1];
-            wedget8.guna2PictureBox1.Image = wedget8.List1.Images[1];
-            wedget9.guna2PictureBox1.Image = wedget9.List1.Images[1];
-            wedget10.guna2PictureBox1.Image = wedget10.List1.Images[1];
+            wedget1.guna2PictureBox1.Image = wedget1.List1.Images[46];
+            wedget2.guna2PictureBox1.Image = wedget2.List1.Images[47];
+            wedget3.guna2PictureBox1.Image = wedget3.List1.Images[48];
+            wedget4.guna2PictureBox1.Image = wedget4.List1.Images[49];
+            wedget5.guna2PictureBox1.Image = wedget5.List1.Images[50];
+            wedget6.guna2PictureBox1.Image = wedget6.List1.Images[51];
+            wedget7.guna2PictureBox1.Image = wedget7.List1.Images[52];
+            wedget8.guna2PictureBox1.Image = wedget8.List1.Images[53];
+            wedget9.guna2PictureBox1.Image = wedget9.List1.Images[54];
+            wedget10.guna2PictureBox1.Image = wedget10.List1.Images[55];
             wedget11.Visible= false;
             wedget12.Visible = false;
             wedget13.Visible = false;
             wedget14.Visible = false;
             wedget15.Visible = false;
             wedget16.Visible = false;
+
+           
 
 
         }
