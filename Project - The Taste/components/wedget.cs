@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,10 +17,13 @@ namespace Project___The_Taste.components
         {
             InitializeComponent();
         }
-
+        public static int total = 0;
         private void guna2PictureBox1_Click(object sender, EventArgs e)
         {
-            LoadingForm.form.guna2DataGridView1.Rows.Add(Ch.Text, 1, label1.Text);
+            
+            total += Convert.ToInt32(label1.Text);
+            Loading.form.guna2DataGridView1.Rows.Add(Ch.Text, 1, label1.Text+"$");
+            Loading.form.label3.Text=total.ToString();
         }
 
         private void guna2ShadowPanel1_Paint(object sender, PaintEventArgs e)

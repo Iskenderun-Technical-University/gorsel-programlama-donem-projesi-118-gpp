@@ -17,7 +17,7 @@ namespace Project___The_Taste
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoadingForm());
+            Application.Run(new Loading());
         }
     }
 }

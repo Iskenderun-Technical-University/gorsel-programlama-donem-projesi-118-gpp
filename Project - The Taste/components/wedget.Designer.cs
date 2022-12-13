@@ -37,6 +37,7 @@ namespace Project___The_Taste.components
             this.label1 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.List1 = new System.Windows.Forms.ImageList(this.components);
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2ShadowPanel1.SuspendLayout();
@@ -70,6 +71,7 @@ namespace Project___The_Taste.components
             // 
             // guna2GradientPanel1
             // 
+            this.guna2GradientPanel1.Controls.Add(this.label2);
             this.guna2GradientPanel1.Controls.Add(this.label1);
             this.guna2GradientPanel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(27)))), ((int)(((byte)(55)))));
@@ -89,11 +91,11 @@ namespace Project___The_Taste.components
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(13, 2);
+            this.label1.Location = new System.Drawing.Point(10, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 24);
+            this.label1.Size = new System.Drawing.Size(43, 24);
             this.label1.TabIndex = 0;
-            this.label1.Text = "500 $";
+            this.label1.Text = "500";
             this.label1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
             // guna2ShadowPanel1
@@ -187,6 +189,19 @@ namespace Project___The_Taste.components
             this.List1.Images.SetKeyName(65, "Pisto.jpg");
             this.List1.Images.SetKeyName(66, "Rabas.jpg");
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(51, 3);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(21, 24);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "$";
+            // 
             // wedget
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -212,5 +227,6 @@ namespace Project___The_Taste.components
         public System.Windows.Forms.ImageList List1;
         public Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         public System.Windows.Forms.Label Ch;
+        private System.Windows.Forms.Label label2;
     }
 }

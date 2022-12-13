@@ -14,11 +14,10 @@ namespace Project___The_Taste
 {
     public partial class Form1 : Form
     {
-        bool sidebarExpand=true;
-        bool mealsCollapse=true;
+        bool sidebarExpand = true;
+        bool mealsCollapse = true;
         bool drinksCollapse = true;
         wedget wedgett = new wedget();
-
         static string[] Chicken={ "Chicken Parmesan\nPasta", "Creamy Chicken\nStroganoff", "Broccoli Cheese\nQuesadilla with Chipotle\nSauce",
         "Chipotle Chicken\nTaquitos", "Air Fryer Chicken\nBreast","Air Fryer Parmesan\nCrusted Chicken with\nMayo","Blackened Chicken\nAlfredo",
         "Butter Chicken","Chicken and Avocado\nQuesadillas","Chicken Fajitas","Ayam geprek","ayam taliwang bakar\nteflon yscooking",
@@ -39,18 +38,9 @@ namespace Project___The_Taste
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-        }
-
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             MealsTimer.Start();
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void Sidebartimer_Tick(object sender, EventArgs e)
@@ -73,17 +63,11 @@ namespace Project___The_Taste
                     Sidebartimer.Stop();
                 }
             }
-
         }
 
         private void menuButton_Click(object sender, EventArgs e)
         {
             Sidebartimer.Start();
-        }
-
-        private void MealsContainer_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void MealsTimer_Tick(object sender, EventArgs e)
@@ -135,44 +119,9 @@ namespace Project___The_Taste
             DrinksTimer.Start();
         }
 
-        private void DrinksContainer_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void wedget2_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void flowLayoutPanel1_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void guna2Separator1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
-            //chackenPanel.Visible=true;
+            MenuPanel.Visible=true;
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[0];
             wedget2.guna2PictureBox1.Image = wedget2.List1.Images[12];
             wedget3.guna2PictureBox1.Image = wedget3.List1.Images[13];
@@ -218,14 +167,9 @@ namespace Project___The_Taste
 
         }
 
-        private void wedget3_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2Button6_Click(object sender, EventArgs e)
         {
-            //meatPanel.Visible=true;
+            MenuPanel.Visible = true;
 
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[46];
             wedget2.guna2PictureBox1.Image = wedget2.List1.Images[47];
@@ -263,7 +207,7 @@ namespace Project___The_Taste
 
         private void guna2Button7_Click(object sender, EventArgs e)
         {
-            //fishPanel.Visible=true;
+            MenuPanel.Visible = true;
 
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[2];
             wedget2.guna2PictureBox1.Image = wedget2.List1.Images[3];
@@ -300,7 +244,7 @@ namespace Project___The_Taste
 
         private void guna2Button11_Click(object sender, EventArgs e)
         {
-            //ColdDrinksPanel.Visible=true;
+            MenuPanel.Visible = true;
 
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[21];
             wedget2.guna2PictureBox1.Image = wedget2.List1.Images[22];
@@ -338,7 +282,7 @@ namespace Project___The_Taste
 
         private void guna2Button10_Click(object sender, EventArgs e)
         {
-            //HotDrinksPanel.Visible=true;
+            MenuPanel.Visible = true;
 
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[38];
             wedget2.guna2PictureBox1.Image = wedget2.List1.Images[39];
@@ -370,7 +314,7 @@ namespace Project___The_Taste
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            //APPETIZERPanel.Visible=true;
+            MenuPanel.Visible = true;
 
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[56];
             wedget2.guna2PictureBox1.Image = wedget2.List1.Images[57];
@@ -404,6 +348,49 @@ namespace Project___The_Taste
             wedget9.Ch.Text = APPETIZER[8];
             wedget10.Ch.Text = APPETIZER[9];
             wedget11.Ch.Text = APPETIZER[10];
+        }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+            MenuPanel.Visible = true;
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string price = "";
+                string temp = guna2DataGridView1.CurrentRow.Cells[2].Value.ToString();
+                for (int i = 0; i < temp.Length - 1; i++)
+                {
+                    price += temp[i];
+                }
+                wedget.total = wedget.total - Convert.ToInt32(price);
+                price = (Convert.ToInt32(label3.Text) - Convert.ToInt32(price)).ToString();
+                label3.Text = price;
+                guna2DataGridView1.Rows.RemoveAt(guna2DataGridView1.CurrentRow.Index);
+            }
+            catch {
+             
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (guna2DataGridView1.Rows.Count == 0) MessageBox.Show("Please Add Somthing To Order And Try Again!!");
+            else
+            {
+                MessageBox.Show("Thanks For Your Order!!", "Happy To Serve You.", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                label3.Text = "0";
+                guna2DataGridView1.Rows.Clear();
+                wedget.total = 0;
+            
+            }
         }
     }
 }
