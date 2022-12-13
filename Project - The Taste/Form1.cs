@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace Project___The_Taste
 {
@@ -428,7 +429,26 @@ namespace Project___The_Taste
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
+            MenuPanel.Visible = true;
 
+            wedget1.guna2PictureBox1.Image = wedget1.List1.Images[77];
+            wedget2.guna2PictureBox1.Image = wedget2.List1.Images[78];
+            wedget3.guna2PictureBox1.Image = wedget3.List1.Images[79];
+            wedget4.guna2PictureBox1.Image = wedget4.List1.Images[80];
+            wedget5.guna2PictureBox1.Image = wedget5.List1.Images[81];
+            wedget6.guna2PictureBox1.Image = wedget6.List1.Images[82];
+            wedget7.guna2PictureBox1.Image = wedget7.List1.Images[83];
+            wedget8.guna2PictureBox1.Image = wedget8.List1.Images[84];
+            wedget9.guna2PictureBox1.Image = wedget9.List1.Images[85];
+
+            wedget9.Visible = true;
+            wedget10.Visible = false;
+            wedget11.Visible = false;
+            wedget12.Visible = false;
+            wedget13.Visible = false;
+            wedget14.Visible = false;
+            wedget15.Visible = false;
+            wedget16.Visible = false;
         }
     }
 }

@@ -214,6 +214,15 @@ namespace Project___The_Taste.components
             this.List1.Images.SetKeyName(74, "mushroom burger.jpg");
             this.List1.Images.SetKeyName(75, "smokehouse burger.png");
             this.List1.Images.SetKeyName(76, "steak burger.png");
+            this.List1.Images.SetKeyName(77, "Apple Pie.jpg");
+            this.List1.Images.SetKeyName(78, "Chocolate Coffee Truffle.jpg");
+            this.List1.Images.SetKeyName(79, "classic-lemon-tart-_-for-web-_-cover.jpg");
+            this.List1.Images.SetKeyName(80, "Eggless Chocolate Mousse.jpg");
+            this.List1.Images.SetKeyName(81, "Fudgy Chewy Brownies.jpg");
+            this.List1.Images.SetKeyName(82, "gulab jamun.jpg");
+            this.List1.Images.SetKeyName(83, "honey cheesecake.jpg");
+            this.List1.Images.SetKeyName(84, "Souffle.jpg");
+            this.List1.Images.SetKeyName(85, "Tiramisu.jpg");
             // 
             // wedget
             // 
