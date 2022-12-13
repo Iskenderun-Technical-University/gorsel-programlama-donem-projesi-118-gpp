@@ -34,10 +34,10 @@ namespace Project___The_Taste.components
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Ch = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.List1 = new System.Windows.Forms.ImageList(this.components);
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2ShadowPanel1.SuspendLayout();
@@ -48,10 +48,10 @@ namespace Project___The_Taste.components
             this.guna2PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2PictureBox1.Image = global::Project___The_Taste.Properties.Resources.Chicken_parmesan_pasta1;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(264, 8);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(269, 10);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(99, 96);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(133, 128);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -62,9 +62,10 @@ namespace Project___The_Taste.components
             this.Ch.AutoSize = true;
             this.Ch.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Ch.Font = new System.Drawing.Font("Lucida Fax", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ch.Location = new System.Drawing.Point(9, 8);
+            this.Ch.Location = new System.Drawing.Point(10, 10);
+            this.Ch.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Ch.Name = "Ch";
-            this.Ch.Size = new System.Drawing.Size(191, 44);
+            this.Ch.Size = new System.Drawing.Size(231, 52);
             this.Ch.TabIndex = 1;
             this.Ch.Text = "Chicken Parmesan \r\nPasta";
             this.Ch.Click += new System.EventHandler(this.guna2PictureBox1_Click);
@@ -76,13 +77,27 @@ namespace Project___The_Taste.components
             this.guna2GradientPanel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(27)))), ((int)(((byte)(55)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(94)))), ((int)(((byte)(117)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(166, 72);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(145, 89);
+            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(82, 32);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(96, 39);
             this.guna2GradientPanel1.TabIndex = 2;
             this.guna2GradientPanel1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             this.guna2GradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(59, 4);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(27, 29);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "$";
             // 
             // label1
             // 
@@ -91,9 +106,10 @@ namespace Project___The_Taste.components
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(10, 3);
+            this.label1.Location = new System.Drawing.Point(12, 4);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 24);
+            this.label1.Size = new System.Drawing.Size(55, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "500";
             this.label1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
@@ -106,13 +122,13 @@ namespace Project___The_Taste.components
             this.guna2ShadowPanel1.Controls.Add(this.Ch);
             this.guna2ShadowPanel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(3, 4);
-            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(4, 5);
+            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.LightGray;
             this.guna2ShadowPanel1.ShadowDepth = 60;
             this.guna2ShadowPanel1.ShadowShift = 7;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(375, 121);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(432, 149);
             this.guna2ShadowPanel1.TabIndex = 4;
             this.guna2ShadowPanel1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             this.guna2ShadowPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel1_Paint);
@@ -188,29 +204,26 @@ namespace Project___The_Taste.components
             this.List1.Images.SetKeyName(64, "Petit four.jpg");
             this.List1.Images.SetKeyName(65, "Pisto.jpg");
             this.List1.Images.SetKeyName(66, "Rabas.jpg");
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(51, 3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(21, 24);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "$";
+            this.List1.Images.SetKeyName(67, "big burger.jpg");
+            this.List1.Images.SetKeyName(68, "cheese burger.jpg");
+            this.List1.Images.SetKeyName(69, "chicken burger.jpg");
+            this.List1.Images.SetKeyName(70, "classic burger.jpg");
+            this.List1.Images.SetKeyName(71, "crispy-chicken-burger.png");
+            this.List1.Images.SetKeyName(72, "double burger.jpg");
+            this.List1.Images.SetKeyName(73, "meat burger.jpg");
+            this.List1.Images.SetKeyName(74, "mushroom burger.jpg");
+            this.List1.Images.SetKeyName(75, "smokehouse burger.png");
+            this.List1.Images.SetKeyName(76, "steak burger.png");
             // 
             // wedget
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.guna2ShadowPanel1);
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "wedget";
-            this.Size = new System.Drawing.Size(381, 130);
+            this.Size = new System.Drawing.Size(443, 160);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();

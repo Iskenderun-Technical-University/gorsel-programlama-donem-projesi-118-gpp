@@ -353,6 +353,28 @@ namespace Project___The_Taste
         private void guna2Button8_Click(object sender, EventArgs e)
         {
             MenuPanel.Visible = true;
+
+            wedget1.guna2PictureBox1.Image = wedget1.List1.Images[67];
+            wedget2.guna2PictureBox1.Image = wedget2.List1.Images[68];
+            wedget3.guna2PictureBox1.Image = wedget3.List1.Images[69];
+            wedget4.guna2PictureBox1.Image = wedget4.List1.Images[70];
+            wedget5.guna2PictureBox1.Image = wedget5.List1.Images[71];
+            wedget6.guna2PictureBox1.Image = wedget6.List1.Images[72];
+            wedget7.guna2PictureBox1.Image = wedget7.List1.Images[73];
+            wedget8.guna2PictureBox1.Image = wedget8.List1.Images[74];
+            wedget9.guna2PictureBox1.Image = wedget9.List1.Images[75];
+            wedget10.guna2PictureBox1.Image = wedget10.List1.Images[76];
+
+            wedget9.Visible = true;
+            wedget10.Visible = true;
+            wedget11.Visible = false;
+            wedget12.Visible = false;
+            wedget13.Visible = false;
+            wedget14.Visible = false;
+            wedget15.Visible = false;
+            wedget16.Visible = false;
+
+
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
