@@ -106,12 +106,12 @@ namespace Project___The_Taste.components
             this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 4);
+            this.label1.Location = new System.Drawing.Point(21, 4);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 29);
+            this.label1.Size = new System.Drawing.Size(41, 29);
             this.label1.TabIndex = 0;
-            this.label1.Text = "500";
+            this.label1.Text = "50";
             this.label1.Click += new System.EventHandler(this.guna2PictureBox1_Click);
             // 
             // guna2ShadowPanel1

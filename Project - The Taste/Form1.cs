@@ -31,7 +31,8 @@ namespace Project___The_Taste
         "Sparkling Mineral\nWater","Ayran","Water"};
         static string[] drinksHot = { "Mint Tea", "Black Tea", "Hot Chocolate", "coffee", "Caramel Latte", "Homemade Mocha", "Hot Lemon", "Masala Chai" };
         static string[] APPETIZER = { "Chicken Fingers", "Çiğ Köfte", "Dakos", "Gravlax", "Haydari Blog Hero", "Kabak Mücveri", "Pajeon", "Perkedel", "Petit Four", "Pisto", "Rabas" };
-        static string[] DESSERTS = { };
+        static string[] DESSERTS = { "Apple Pie", "Chocolate Coffee\nTruffle", "classic lemon tart", "Chocolate Mousse", "Fudgy Chewy Brownies", "gulab jamun", "honey cheesecake",
+        "Souffle","Tiramisu"};
         public static Form1 form = new Form1();
 
         public Form1()
@@ -230,16 +231,16 @@ namespace Project___The_Taste
             wedget15.Visible = false;
             wedget16.Visible = false;
 
-            wedget1.Ch.Text = fish[0];
-            wedget2.Ch.Text = fish[1];
-            wedget3.Ch.Text = fish[2];
-            wedget4.Ch.Text = fish[3];
-            wedget5.Ch.Text = fish[4];
-            wedget6.Ch.Text = fish[5];
-            wedget7.Ch.Text = fish[6];
-            wedget8.Ch.Text = fish[7];
-            wedget9.Ch.Text = fish[8];
-            wedget10.Ch.Text = fish[9];
+            wedget1.Ch.Text = DESSERTS[0];
+            wedget2.Ch.Text = DESSERTS[1];
+            wedget3.Ch.Text = DESSERTS[2];
+            wedget4.Ch.Text = DESSERTS[3];
+            wedget5.Ch.Text = DESSERTS[4];
+            wedget6.Ch.Text = DESSERTS[5];
+            wedget7.Ch.Text = DESSERTS[6];
+            wedget8.Ch.Text = DESSERTS[7];
+            wedget9.Ch.Text = DESSERTS[8];
+            
 
         }
 
@@ -449,6 +450,16 @@ namespace Project___The_Taste
             wedget14.Visible = false;
             wedget15.Visible = false;
             wedget16.Visible = false;
+
+            wedget1.Ch.Text = fish[0];
+            wedget2.Ch.Text = fish[1];
+            wedget3.Ch.Text = fish[2];
+            wedget4.Ch.Text = fish[3];
+            wedget5.Ch.Text = fish[4];
+            wedget6.Ch.Text = fish[5];
+            wedget7.Ch.Text = fish[6];
+            wedget8.Ch.Text = fish[7];
+            wedget9.Ch.Text = fish[8];
         }
     }
 }
