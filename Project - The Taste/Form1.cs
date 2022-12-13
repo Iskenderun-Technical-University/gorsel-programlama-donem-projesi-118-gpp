@@ -25,7 +25,7 @@ namespace Project___The_Taste
         static string[] Meat = { "Beef Kaldereta", "Espetada", "Leberkäse", "Meat Pie", "Meatball Sub Recipe", "Paella Valenciana", "Pit Beef", "Şiş Tavuk", "Steak Marinade", "Sweet Sour Meat Balls"};
         static string[] fish= { "Masala Fried Pomfret", "Thai Fish Curry", "Gorton's Seafood", "Kerala Fish Fry", "Thai Steamed Fish with\nLime and Garlic", "Indian Omelet Masala\nEgg Curry",
         "Sticky Buttery Honey\nGarlic Shrimp","Baked Salmon with Garlic\nButter","Malabar Style Chemmeen\nCurry","Indian Style Fish and\nChips"};
-        static string[] Hamburger = { };
+        static string[] Hamburger = { "big burger", "cheese burger", "chicken burger", "classic burger", "crispy chicken burger", "double burge", "meat burger", "mushroom burger", "smokehouse burger", "steak burger" };
         static string[] drinksCold = { "Orange juice", "Sprite", "Coca cola", "Pepsi", "Chocolate Milkshake", "Coffee Milkshake","Fanta", "Strawberry juice",
         "Sparkling Mineral\nWater","Ayran","Water"};
         static string[] drinksHot = { "Mint Tea", "Black Tea", "Hot Chocolate", "coffee", "Caramel Latte", "Homemade Mocha", "Hot Lemon", "Masala Chai" };
@@ -374,6 +374,17 @@ namespace Project___The_Taste
             wedget15.Visible = false;
             wedget16.Visible = false;
 
+            wedget1.Ch.Text = Hamburger[0];
+            wedget2.Ch.Text = Hamburger[1];
+            wedget3.Ch.Text = Hamburger[2];
+            wedget4.Ch.Text = Hamburger[3];
+            wedget5.Ch.Text = Hamburger[4];
+            wedget6.Ch.Text = Hamburger[5];
+            wedget7.Ch.Text = Hamburger[6];
+            wedget8.Ch.Text = Hamburger[7];
+            wedget9.Ch.Text = Hamburger[8];
+            wedget10.Ch.Text = Hamburger[9];
+
 
         }
 
@@ -413,6 +424,11 @@ namespace Project___The_Taste
                 wedget.total = 0;
             
             }
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
