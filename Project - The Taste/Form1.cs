@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
+using static System.Collections.Specialized.BitVector32;
 
 namespace Project___The_Taste
 {
@@ -19,20 +20,37 @@ namespace Project___The_Taste
         bool mealsCollapse = true;
         bool drinksCollapse = true;
         wedget wedgett = new wedget();
+
+        //the chicken menu names
         static string[] Chicken={ "Chicken Parmesan\nPasta", "Creamy Chicken\nStroganoff", "Broccoli Cheese\nQuesadilla with Chipotle\nSauce",
         "Chipotle Chicken\nTaquitos", "Air Fryer Chicken\nBreast","Air Fryer Parmesan\nCrusted Chicken with\nMayo","Blackened Chicken\nAlfredo",
         "Butter Chicken","Chicken and Avocado\nQuesadillas","Chicken Fajitas","Ayam geprek","ayam taliwang bakar\nteflon yscooking",
         "Chicken Afritada","Arroz con Pollo","saftiges backhendl","Barbecued Chicken"};
+
+        //the meat menu names
         static string[] Meat = { "Beef Kaldereta", "Espetada", "Leberkäse", "Meat Pie", "Meatball Sub Recipe", "Paella Valenciana", "Pit Beef", "Şiş Tavuk", "Steak Marinade", "Sweet Sour Meat Balls"};
+
+        //the fish menu names
         static string[] fish= { "Masala Fried Pomfret", "Thai Fish Curry", "Gorton's Seafood", "Kerala Fish Fry", "Thai Steamed Fish with\nLime and Garlic", "Indian Omelet Masala\nEgg Curry",
         "Sticky Buttery Honey\nGarlic Shrimp","Baked Salmon with Garlic\nButter","Malabar Style Chemmeen\nCurry","Indian Style Fish and\nChips"};
+        
+        //the hamburger menu names
         static string[] Hamburger = { "big burger", "cheese burger", "chicken burger", "classic burger", "crispy chicken burger", "double burge", "meat burger", "mushroom burger", "smokehouse burger", "steak burger" };
+       
+        //the colddrıinks menu names
         static string[] drinksCold = { "Orange juice", "Sprite", "Coca cola", "Pepsi", "Chocolate Milkshake", "Coffee Milkshake","Fanta", "Strawberry juice",
         "Sparkling Mineral\nWater","Ayran","Water"};
+
+        //the hotdrinks menu names
         static string[] drinksHot = { "Mint Tea", "Black Tea", "Hot Chocolate", "coffee", "Caramel Latte", "Homemade Mocha", "Hot Lemon", "Masala Chai" };
+        
+        //the appetizer menu names
         static string[] APPETIZER = { "Chicken Fingers", "Çiğ Köfte", "Dakos", "Gravlax", "Haydari Blog Hero", "Kabak Mücveri", "Pajeon", "Perkedel", "Petit Four", "Pisto", "Rabas" };
+        
+        //the desserts mrnu names
         static string[] DESSERTS = { "Apple Pie", "Chocolate Coffee\nTruffle", "classic lemon tart", "Chocolate Mousse", "Fudgy Chewy Brownies", "gulab jamun", "honey cheesecake",
         "Souffle","Tiramisu"};
+
         public static Form1 form = new Form1();
 
         public Form1()
@@ -47,6 +65,7 @@ namespace Project___The_Taste
 
         private void Sidebartimer_Tick(object sender, EventArgs e)
         {
+            //for expand of the sidebar (open and close)
             if(sidebarExpand)
             {
                 sidebar.Width -= 10;
@@ -74,7 +93,9 @@ namespace Project___The_Taste
 
         private void MealsTimer_Tick(object sender, EventArgs e)
         {
-            if(mealsCollapse)
+            //for showing the side section inside the main section (meals)
+
+            if (mealsCollapse)
             {
                 MealsContainer.Height += 10;
                 if(MealsContainer.Height == MealsContainer.MaximumSize.Height)
@@ -96,6 +117,8 @@ namespace Project___The_Taste
 
         private void DrinksTimer_Tick(object sender, EventArgs e)
         {
+            //for showing the side section inside the main section (drinks)
+
             if (drinksCollapse)
             {
                 DrinksContainer.Height += 10;
@@ -121,8 +144,10 @@ namespace Project___The_Taste
             DrinksTimer.Start();
         }
 
+        //the chicken menu
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
+            //for showing the chicken menu photos
             MenuPanel.Visible=true;
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[0];
             wedget2.guna2PictureBox1.Image = wedget2.List1.Images[12];
@@ -150,6 +175,8 @@ namespace Project___The_Taste
             wedget15.Visible = true;
             wedget16.Visible = true;
 
+            //for showing the chicken menu meals names useing the previous statik
+
             wedget1.Ch.Text = Chicken[0];
             wedget2.Ch.Text = Chicken[1];
             wedget3.Ch.Text = Chicken[2];
@@ -169,8 +196,12 @@ namespace Project___The_Taste
 
         }
 
+        //the meat menu
         private void guna2Button6_Click(object sender, EventArgs e)
         {
+
+            //for showing the meat menu photos
+
             MenuPanel.Visible = true;
 
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[46];
@@ -193,6 +224,9 @@ namespace Project___The_Taste
             wedget15.Visible = false;
             wedget16.Visible = false;
 
+            //for showing the meat menu meals names useing the previous statik
+
+
             wedget1.Ch.Text = Meat[0];
             wedget2.Ch.Text = Meat[1];
             wedget3.Ch.Text = Meat[2];
@@ -207,8 +241,12 @@ namespace Project___The_Taste
 
         }
 
+        //the desserts menu
         private void guna2Button7_Click(object sender, EventArgs e)
         {
+
+            //for showing the desserts menu photos
+
             MenuPanel.Visible = true;
 
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[2];
@@ -231,6 +269,9 @@ namespace Project___The_Taste
             wedget15.Visible = false;
             wedget16.Visible = false;
 
+            //for showing the desserts menu meals names useing the previous statik
+
+
             wedget1.Ch.Text = DESSERTS[0];
             wedget2.Ch.Text = DESSERTS[1];
             wedget3.Ch.Text = DESSERTS[2];
@@ -244,8 +285,13 @@ namespace Project___The_Taste
 
         }
 
+        
+
+        //the cold drinks menu
         private void guna2Button11_Click(object sender, EventArgs e)
         {
+            //for showing the cold drinks menu photos
+
             MenuPanel.Visible = true;
 
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[21];
@@ -268,6 +314,8 @@ namespace Project___The_Taste
             wedget15.Visible = false;
             wedget16.Visible = false;
 
+            //for showing the cold drinks menu names useing the previous statik
+
             wedget1.Ch.Text = drinksCold[0];
             wedget2.Ch.Text = drinksCold[1];
             wedget3.Ch.Text = drinksCold[2];
@@ -282,8 +330,12 @@ namespace Project___The_Taste
 
         }
 
+        //the hot drinks menu
+
         private void guna2Button10_Click(object sender, EventArgs e)
         {
+            //for showing the hot drinks menu photos
+
             MenuPanel.Visible = true;
 
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[38];
@@ -304,6 +356,8 @@ namespace Project___The_Taste
             wedget15.Visible = false;
             wedget16.Visible = false;
 
+            //for showing the hot drinks menu names useing the previous statik
+
             wedget1.Ch.Text = drinksHot[0];
             wedget2.Ch.Text = drinksHot[1];
             wedget3.Ch.Text = drinksHot[2];
@@ -314,8 +368,11 @@ namespace Project___The_Taste
             wedget8.Ch.Text = drinksHot[7];
         }
 
+        //the appetizer menu names
         private void guna2Button3_Click(object sender, EventArgs e)
         {
+            //for showing the appetizer menu photos
+
             MenuPanel.Visible = true;
 
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[56];
@@ -339,6 +396,8 @@ namespace Project___The_Taste
             wedget15.Visible = false;
             wedget16.Visible = false;
 
+            //for showing the appetizer menu names useing the previous statik
+
             wedget1.Ch.Text = APPETIZER[0];
             wedget2.Ch.Text = APPETIZER[1];
             wedget3.Ch.Text = APPETIZER[2];
@@ -352,8 +411,11 @@ namespace Project___The_Taste
             wedget11.Ch.Text = APPETIZER[10];
         }
 
+        //the Hamburger menu
         private void guna2Button8_Click(object sender, EventArgs e)
         {
+            //for showing the Hamburger menu photos
+
             MenuPanel.Visible = true;
 
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[67];
@@ -376,6 +438,8 @@ namespace Project___The_Taste
             wedget15.Visible = false;
             wedget16.Visible = false;
 
+            //for showing the Hamburger menu meals names useing the previous statik
+
             wedget1.Ch.Text = Hamburger[0];
             wedget2.Ch.Text = Hamburger[1];
             wedget3.Ch.Text = Hamburger[2];
@@ -397,6 +461,7 @@ namespace Project___The_Taste
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //for adding the prices of the meals or delete it
             try
             {
                 string price = "";
@@ -417,6 +482,9 @@ namespace Project___The_Taste
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            //showing a thank message aftre order
+
             if (guna2DataGridView1.Rows.Count == 0) MessageBox.Show("Please Add Somthing To Order And Try Again!!");
             else
             {
@@ -427,9 +495,11 @@ namespace Project___The_Taste
             
             }
         }
-
+        //the fish menu
         private void guna2Button4_Click(object sender, EventArgs e)
         {
+            //for showing the fish menu photos
+
             MenuPanel.Visible = true;
 
             wedget1.guna2PictureBox1.Image = wedget1.List1.Images[77];
@@ -451,6 +521,8 @@ namespace Project___The_Taste
             wedget15.Visible = false;
             wedget16.Visible = false;
 
+            //for showing the fish menu meals names useing the previous statik
+
             wedget1.Ch.Text = fish[0];
             wedget2.Ch.Text = fish[1];
             wedget3.Ch.Text = fish[2];
@@ -460,6 +532,12 @@ namespace Project___The_Taste
             wedget7.Ch.Text = fish[6];
             wedget8.Ch.Text = fish[7];
             wedget9.Ch.Text = fish[8];
+        }
+
+
+        private void sidebar_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

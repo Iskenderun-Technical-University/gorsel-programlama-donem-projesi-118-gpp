@@ -134,3 +134,4 @@ C:\Users\afraa\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project
 C:\Users\afraa\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project - The Taste.pdb
 C:\Users\DELL\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project___The_Taste.LoadingForm.resources
 C:\Users\afraa\Desktop\the-taste-Resturant\Project - The Taste\obj\Debug\Project___The_Taste.Loading.resources
+C:\Users\LENOVO\Desktop\pro\the-taste-Resturant\Project - The Taste\obj\Debug\Project___The_Taste.Loading.resources

@@ -44,7 +44,7 @@ namespace Project___The_Taste
             this.panel1 = new System.Windows.Forms.Panel();
             this.ButtonMeals = new Guna.UI2.WinForms.Guna2Button();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.chickenMenuButton = new Guna.UI2.WinForms.Guna2Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.panel10 = new System.Windows.Forms.Panel();
@@ -136,6 +136,7 @@ namespace Project___The_Taste
             this.sidebar.Name = "sidebar";
             this.sidebar.Size = new System.Drawing.Size(241, 999);
             this.sidebar.TabIndex = 3;
+            this.sidebar.Paint += new System.Windows.Forms.PaintEventHandler(this.sidebar_Paint);
             // 
             // panel2
             // 
@@ -257,36 +258,36 @@ namespace Project___The_Taste
             // 
             // panel7
             // 
-            this.panel7.Controls.Add(this.guna2Button1);
+            this.panel7.Controls.Add(this.chickenMenuButton);
             this.panel7.Location = new System.Drawing.Point(10, 66);
             this.panel7.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(227, 43);
             this.panel7.TabIndex = 1;
             // 
-            // guna2Button1
+            // chickenMenuButton
             // 
-            this.guna2Button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(94)))), ((int)(((byte)(117)))));
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Font = new System.Drawing.Font("Lucida Bright", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Image = global::Project___The_Taste.Properties.Resources.next;
-            this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.ImageOffset = new System.Drawing.Point(60, -5);
-            this.guna2Button1.ImageSize = new System.Drawing.Size(25, 25);
-            this.guna2Button1.Location = new System.Drawing.Point(-6, -20);
-            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(262, 85);
-            this.guna2Button1.TabIndex = 4;
-            this.guna2Button1.Text = "        Chicken";
-            this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button1.TextOffset = new System.Drawing.Point(5, -5);
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
+            this.chickenMenuButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(94)))), ((int)(((byte)(117)))));
+            this.chickenMenuButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.chickenMenuButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.chickenMenuButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.chickenMenuButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.chickenMenuButton.FillColor = System.Drawing.Color.Transparent;
+            this.chickenMenuButton.Font = new System.Drawing.Font("Lucida Bright", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chickenMenuButton.ForeColor = System.Drawing.Color.White;
+            this.chickenMenuButton.Image = global::Project___The_Taste.Properties.Resources.next;
+            this.chickenMenuButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.chickenMenuButton.ImageOffset = new System.Drawing.Point(60, -5);
+            this.chickenMenuButton.ImageSize = new System.Drawing.Size(25, 25);
+            this.chickenMenuButton.Location = new System.Drawing.Point(-6, -20);
+            this.chickenMenuButton.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.chickenMenuButton.Name = "chickenMenuButton";
+            this.chickenMenuButton.Size = new System.Drawing.Size(262, 85);
+            this.chickenMenuButton.TabIndex = 4;
+            this.chickenMenuButton.Text = "        Chicken";
+            this.chickenMenuButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.chickenMenuButton.TextOffset = new System.Drawing.Point(5, -5);
+            this.chickenMenuButton.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
             // panel8
             // 
@@ -554,7 +555,7 @@ namespace Project___The_Taste
             this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(241, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(1009, 70);
             this.guna2Panel1.TabIndex = 5;
@@ -607,7 +608,7 @@ namespace Project___The_Taste
             this.guna2ShadowPanel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
             this.guna2ShadowPanel1.Location = new System.Drawing.Point(806, 70);
-            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
             this.guna2ShadowPanel1.Size = new System.Drawing.Size(444, 771);
@@ -650,7 +651,7 @@ namespace Project___The_Taste
             this.guna2DataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView1.Location = new System.Drawing.Point(8, 78);
-            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2DataGridView1.MultiSelect = false;
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.ReadOnly = true;
@@ -721,7 +722,7 @@ namespace Project___The_Taste
             this.guna2CustomGradientPanel1.Controls.Add(this.button2);
             this.guna2CustomGradientPanel1.Controls.Add(this.button1);
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(8, 550);
-            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(430, 219);
             this.guna2CustomGradientPanel1.TabIndex = 1;
@@ -768,7 +769,7 @@ namespace Project___The_Taste
             this.button2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(284, 153);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(133, 63);
             this.button2.TabIndex = 3;
@@ -783,7 +784,7 @@ namespace Project___The_Taste
             this.button1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(13, 153);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(255, 63);
             this.button1.TabIndex = 2;
@@ -1037,7 +1038,7 @@ namespace Project___The_Taste
         private System.Windows.Forms.Timer Sidebartimer;
         private System.Windows.Forms.Panel MealsContainer;
         private System.Windows.Forms.Panel panel7;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button chickenMenuButton;
         private System.Windows.Forms.Panel panel9;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private System.Windows.Forms.Panel panel8;
